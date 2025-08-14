@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Memorability experiment</title>
+
+  <!-- Plugins -->
+  <!-- Main jsPsych plugin -->
+  <script src="https://unpkg.com/jspsych@8.2.2"></script>
+  <!-- Plugin to preload images -->
+  <script src="https://unpkg.com/@jspsych/plugin-preload@2.1.0"></script>
+  <!-- Plugin to show images and record keyboard responses -->
+  <script src="https://unpkg.com/@jspsych/plugin-image-keyboard-response@2.1.0"></script>
+  <!-- Plugin to show text (here - feedback) and record keyboard responses -->
+  <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.1.0"></script>
+  <!-- Plugin to run the experiment in fullscreen mode -->
+  <script src="https://unpkg.com/@jspsych/plugin-fullscreen@2.1.0"></script>
+  <!-- Plugin to show text (here - instructions) and record button responses -->
+  <script src="https://unpkg.com/@jspsych/plugin-html-button-response@2.1.0"></script>
+  <!-- DataPipe plugin (need it to save data) -->
+  <script src="https://unpkg.com/@jspsych-contrib/plugin-pipe"></script>
+
+  <!-- CSS -->
+  <link href="https://unpkg.com/jspsych@8.2.2/css/jspsych.css" rel="stylesheet" type="text/css" />
+</head>
+<body></body>
+<script>
+
+// Set hyper variables
+/* Randomly assign a participant to a group
+Depending on the group, certain images will be designated as targets or foils */
+const group = Math.random() < 0.5 ? "Group1" : "Group2"; 
+// Durations
+const ISI = 500; // ms
+const image_duration = 2500;
+const feedback_duration = 500;
+/* Screen dimensions
+Set all the sizes relative to the screen size */
+const screen_height = screen.height; 
+const img_size = 0.3 * screen_height; // image size (pixels)
+const fix_cross_size = 0.05 * screen_height; // fixation cross size
+const feedback_font_size = 0.05 * screen_height; // for feedback
+const question_font_size = 0.035 * screen_height; // for questions under images
+const instructions_font_size = 0.02 * screen_height; // for instructions
+const spacing_answers = 0.4 * screen_height; // spacing between "A - NO" and "L - YES"
+
+// Begin Experiment
+var jsPsych = initJsPsych({
+    show_progress_bar: true // show progress bar
+});
+
+
+// get subject ID (CHANGE IF USE PROLIFIC)
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};
+
+let subjectID = getUrlParameter('id');
+if (subjectID === undefined) {
+    subjectID = this.jsPsych.randomization.randomID(8)
+};
+// Add subject ID and group to data properties
+jsPsych.data.addProperties({subject_id: subjectID, group: group});
+
+// Preload images
+let preload = {
+  type: jsPsychPreload,
+  auto_preload: true
+};
+
+// Run Exp in the fullscreen mode
+let enter_fullscreen = {
+  type: jsPsychFullscreen,
+  fullscreen_mode: true
+};
+let exit_fullscreen = {
+  type: jsPsychFullscreen,
+  fullscreen_mode: false,
+  delay_after: 0
+};
+
+// Instructions
+let instructions = {
+  type: jsPsychHtmlButtonResponse,
+  stimulus: `<div style="max-width: ${spacing_answers*2}px; margin: auto; font-size: ${instructions_font_size}px; line-height: 1.5;">
+    <h1 style="text-align:center; font-size: ${instructions_font_size*1.5}px;">Instructions</h1>
+    
+    <p>
+      In this experiment, you will see a series of rock images with their category labels.
+      They will be displayed one by one, and you will have a limited time to view each image.
+      <b>Your task</b> is to memorize them.
+    </p>
+      
+    <p>
+      After the memorization phase, <b>your memory will be tested</b>.
+    </p>
+      
+    <p>Press the button if you are ready to begin the experiment</p>
+    </div>`,
+  choices: ["Begin Experiment"]
+};
+
+// Between phases instructions
+let between_phases = {
+  type: jsPsychHtmlButtonResponse,
+  stimulus: `<div style="max-width: ${spacing_answers*2}px; margin: auto; font-size: ${instructions_font_size}px; line-height: 1.5;">
+    <h1 style="text-align:center; font-size: ${instructions_font_size*1.5}px;">Instructions for the test phase</h1>
+    
+    <p>
+      Now, the memorization phase is over.
+    </p>
+      
+    <p>
+      In the test phase, you will see a series of images. Some will be ones you saw before, and others will be new.  
+      <b>Your task</b> is to decide whether you have seen each image before by pressing the corresponding key on your keyboard:<br><br>
+        <b>A</b> - NO (you didn\'t see this image before)<br>
+        <b>L</b> - YES (you saw this image before)<br><br>
+      The experiment will proceed at your own pace. You will also receive feedback after each response.
+    </p>
+      
+    <p>Press the button if you are ready to continue</p>
+    </div>`,
+  choices: ["Continue to the test phase"]
+};
+
+// Save data
+const filename = `${group}_${subjectID}.json`;
+const save_data = {
+  type: jsPsychPipe,
+  action: "save",
+  experiment_id: "nceP6xdbrofo",
+  filename: filename,
+  data_string: ()=>jsPsych.data.get().csv()
+};
+
+// Debriefing
+let debrief = {
+  type: jsPsychHtmlButtonResponse,
+  stimulus: `<div style="max-width: ${spacing_answers*2}px; margin: auto; font-size: ${instructions_font_size}px; line-height: 1.5;">
+    <h1 style="text-align:center; font-size: ${instructions_font_size*1.5}px;">Debriefing</h1>
+    
+    <p>
+      Congratulations! You have completed the experiment. Thank you for your participation.
+    </p>
+
+    <p>
+      In this experiment, we are studying the memorability of different items. 
+      Our goal is to understand why some items are remembered better than others. 
+      We hypothesize that certain items are more memorable because they stand out from other items in the same category. 
+      For example, a rock with a unique color or shape is more likely to be remembered than one that closely resembles many others in its category. 
+      In another group of participants, we will reverse the roles of old and new items, 
+      so that the same items will be new for some participants and old for others. 
+      This approach allows us to compare the memorability of the same items in different contexts.
+    </p>
+
+    <p>
+      <b>Your data has been saved</b> on our servers. You may now close this window at any time. 
+      If you have any questions or concerns, please feel free to reach out to the experimenter. Thanks again!
+    </p>
+      
+    </div>`,
+  choices: []
+};
+
+
+// Read the table
+let all_stim_table;
+let targets_table;
+// Phases
+let Memory_phase;
+let Test_phase;
+
+// Initialize the timeline
+let timeline = [];
+
+/* Write code within fetch() to ensure
+that the table is read in BEFORE we use its variables */
+fetch('Average_Distinct_Ratings_480Rocks.json')
+  .then(res => res.json())
+  .then(data => {
+    all_stim_table = data;
+    /* Set full image path (with folder name) 
+    and correct key */
+    all_stim_table = all_stim_table.map(row => ({
+      ...row,
+      full_image_png: 'Stimuli_Rocks480/' + row.image_png,
+      correct_key: row[group] === "Target" ? "l" : "a"
+    }));
+
+    // Shuffle the entire table
+    all_stim_table = jsPsych.randomization.shuffle(all_stim_table);
+    // Filter Targets (Memory phase) and shuffle them
+    targets_table = all_stim_table.filter(row => row[group] === "Target");
+    targets_table = jsPsych.randomization.shuffle(targets_table);
+
+    /* Memory Phase 
+    Fixation Cross -> Image 
+    Hide the coursor */
+    Memory_phase = {
+      timeline: [
+      // Fixation Cross
+        {
+          type: jsPsychHtmlKeyboardResponse,
+          stimulus: `<p style="font-size: ${fix_cross_size}px;">+</p>`,
+          choices: "NO_KEYS",
+          trial_duration: ISI
+        },
+        // Image
+        {
+          type: jsPsychImageKeyboardResponse,
+          stimulus: jsPsych.timelineVariable('full_image_png'),
+          choices: "NO_KEYS",
+          trial_duration: image_duration,
+          stimulus_height: img_size,
+          prompt: function() {
+            var categoryName = jsPsych.evaluateTimelineVariable('Category_Name');
+            return `<p style="font-size: ${question_font_size}px;">${categoryName}</p>`;
+          },
+          data: {
+            task: 'memory_phase',
+            broad_category: jsPsych.timelineVariable('Broad_Category_Name'),
+            image_png: jsPsych.timelineVariable('image_png'),
+            image_id: jsPsych.timelineVariable('image_id'),
+            category_name: jsPsych.timelineVariable('Category_Name'),
+            category: jsPsych.timelineVariable('Category'),
+            distinct_rating: jsPsych.timelineVariable('Distinct_Rating'),
+          }
+        }
+      ],
+      timeline_variables: targets_table,
+      randomize_order: false,
+      // Hide cursor
+      on_timeline_start: function() {
+        document.body.style.cursor = 'none';
+      },
+      on_timeline_finish: function() {
+        document.body.style.cursor = 'default';
+      }
+    };
+
+    /* Test Phase 
+    Image with a question -> Feedback */
+    Test_phase = {
+      timeline: [
+
+      // Image with a question
+        {
+          type: jsPsychImageKeyboardResponse,
+          stimulus: jsPsych.timelineVariable('full_image_png'),
+          choices: ['a', 'l'], 
+          stimulus_height: img_size,
+          prompt: function() {
+            return `<p style="font-size: ${question_font_size}px;">Did you see this image before?</p>
+                    <div style="display: flex; justify-content: space-between; font-size: ${question_font_size}px; max-width: ${spacing_answers}px; margin: 0 auto;">
+                      <span>A - NO</span>
+                      <span>L - YES</span>
+                    </div>`;
+          },
+          data: {
+            correct_response: jsPsych.timelineVariable('correct_key'),
+            task: 'test_phase',
+            broad_category: jsPsych.timelineVariable('Broad_Category_Name'),
+            image_png: jsPsych.timelineVariable('image_png'),
+            image_id: jsPsych.timelineVariable('image_id'),
+            category_name: jsPsych.timelineVariable('Category_Name'),
+            category: jsPsych.timelineVariable('Category'),
+            distinct_rating: jsPsych.timelineVariable('Distinct_Rating'),
+          },
+          // Check if response is correct (save it in data)
+          on_finish: function(data) {
+            data.cor_ans = data.response == data.correct_response;
+          }
+        },
+
+        // Feedback
+        {
+          type: jsPsychHtmlKeyboardResponse,
+          stimulus: function() {
+            var last_trial_correct = jsPsych.data.get().last(1).values()[0].cor_ans;
+            if (last_trial_correct) {
+              return `<p style="color: green; font-size: ${feedback_font_size}px; font-weight: bold;">Correct</p>`;
+            } else {
+              return `<p style="color: red; font-size: ${feedback_font_size}px; font-weight: bold;">Incorrect</p>`;
+            }
+          },
+          choices: "NO_KEYS",
+          trial_duration: feedback_duration,
+          data: {
+            trial_type: 'feedback',
+          }
+        }
+      ],
+      timeline_variables: all_stim_table,
+      randomize_order: false,
+      // Hide cursor
+      on_timeline_start: function() {
+        document.body.style.cursor = 'none';
+      },
+      on_timeline_finish: function() {
+        document.body.style.cursor = 'default';
+      }
+    }
+
+    // Add all the phases to the timeline
+    timeline.push(preload, enter_fullscreen, instructions,
+                  Memory_phase, between_phases, Test_phase,
+                  save_data, exit_fullscreen, debrief);
+    jsPsych.run(timeline);
+  });
+
+</script>
+</html>
