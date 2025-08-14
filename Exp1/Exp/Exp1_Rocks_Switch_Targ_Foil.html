@@ -73,10 +73,10 @@ if (subjectID === undefined) {
 jsPsych.data.addProperties({subject_id: subjectID, group: group});
 
 // Preload images
-let preload = {
+let preload; /*= {
   type: jsPsychPreload,
   auto_preload: true
-};
+};*/
 
 // Run Exp in the fullscreen mode
 let enter_fullscreen = {
@@ -140,7 +140,7 @@ const save_data = {
   action: "save",
   experiment_id: "nceP6xdbrofo",
   filename: filename,
-  data_string: ()=>jsPsych.data.get().csv()
+  data_string: ()=>jsPsych.data.get().json()
 };
 
 // Debriefing
@@ -202,6 +202,13 @@ fetch('Average_Distinct_Ratings_480Rocks.json')
     // Filter Targets (Memory phase) and shuffle them
     targets_table = all_stim_table.filter(row => row[group] === "Target");
     targets_table = jsPsych.randomization.shuffle(targets_table);
+
+    /* Preload images
+    Use the full image path for preloading */
+    preload = {
+      type: jsPsychPreload,
+      images: all_stim_table.map(row => row.full_image_png)
+    };
 
     /* Memory Phase 
     Fixation Cross -> Image 
@@ -278,6 +285,7 @@ fetch('Average_Distinct_Ratings_480Rocks.json')
           },
           // Check if response is correct (save it in data)
           on_finish: function(data) {
+            data.response = data.response.toLowerCase(); // make sure the response is lowercase
             data.cor_ans = data.response == data.correct_response;
           }
         },
