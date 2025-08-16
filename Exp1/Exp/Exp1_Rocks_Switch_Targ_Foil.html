@@ -282,6 +282,7 @@ fetch('Average_Distinct_Ratings_480Rocks.json')
             category_name: jsPsych.timelineVariable('Category_Name'),
             category: jsPsych.timelineVariable('Category'),
             distinct_rating: jsPsych.timelineVariable('Distinct_Rating'),
+            item_type: jsPsych.timelineVariable(group) // Target or Foil
           },
           // Check if response is correct (save it in data)
           on_finish: function(data) {
