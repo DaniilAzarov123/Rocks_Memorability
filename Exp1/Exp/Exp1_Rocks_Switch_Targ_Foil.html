@@ -128,14 +128,6 @@ let device_check = {
     if (progressBar) {
         progressBar.style.display = 'none';
     }
-  },
-  on_finish: function() {
-    // Show progress bar again and set it to 0
-    var progressBar = document.querySelector('#jspsych-progressbar-container');
-    if (progressBar) {
-        progressBar.style.display = 'block';
-    }
-    updateProgressBar(0, '');
   }
 };
 
