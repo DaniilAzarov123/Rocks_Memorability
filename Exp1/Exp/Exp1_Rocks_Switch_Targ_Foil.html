@@ -294,7 +294,7 @@ let debrief = {
     `<div style="max-width: ${spacing_answers*2}px; margin: auto; font-size: ${instructions_font_size}px; line-height: 1.5;">
       <h1 style="text-align:center; font-size: ${instructions_font_size*1.5}px;">Debriefing</h1>
       <p>
-        Congratulations! You have completed the experiment. Thank you for your participation.
+        Congratulations! You have completed the experiment. Thank you for your participation. You will receive 1 credit soon.
       </p>
       <p>
         In this study, we are investigating what makes certain items more memorable than others.  
@@ -490,7 +490,7 @@ fetch('Average_Distinct_Ratings_480Rocks.json')
       if (idx < memory_phase_chunks.length - 1) {
         Memory_phase.timeline.push({
           type: jsPsychHtmlKeyboardResponse,
-          stimulus: `<p style="font-size: ${question_font_size}px;">Press SPACE to proceed</p>`,
+          stimulus: `<p style="font-size: ${question_font_size}px;">Press SPACE to continue study phase</p>`,
           choices: [' '],
         });
       }
