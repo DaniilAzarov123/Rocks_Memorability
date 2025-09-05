@@ -1,481 +1,241 @@
 image_id,Broad_Category_Name,Category,Category_Name,Item,Distinct_Rating,Group1,Group2,image_png
 7,I,1,Andesite,7,4.81,Target,Foil,I_Andesite_07.png
 14,I,1,Andesite,14,4.47,Foil,Target,I_Andesite_14.png
-1,I,1,Andesite,1,3.99,Target,Foil,I_Andesite_01.png
-15,I,1,Andesite,15,3.98,Foil,Target,I_Andesite_15.png
 2,I,1,Andesite,2,3.93,Target,Foil,I_Andesite_02.png
 12,I,1,Andesite,12,3.75,Foil,Target,I_Andesite_12.png
-16,I,1,Andesite,16,3.57,Target,Foil,I_Andesite_16.png
-13,I,1,Andesite,13,3.54,Foil,Target,I_Andesite_13.png
 11,I,1,Andesite,11,3.35,Target,Foil,I_Andesite_11.png
 5,I,1,Andesite,5,3.32,Foil,Target,I_Andesite_05.png
-4,I,1,Andesite,4,3.18,Target,Foil,I_Andesite_04.png
-3,I,1,Andesite,3,3.17,Foil,Target,I_Andesite_03.png
 6,I,1,Andesite,6,3.17,Target,Foil,I_Andesite_06.png
 10,I,1,Andesite,10,3.15,Foil,Target,I_Andesite_10.png
-9,I,1,Andesite,9,2.49,Target,Foil,I_Andesite_09.png
-8,I,1,Andesite,8,1.95,Foil,Target,I_Andesite_08.png
 28,I,2,Basalt,12,4.08,Foil,Target,I_Basalt_12.png
 31,I,2,Basalt,15,4.03,Target,Foil,I_Basalt_15.png
-30,I,2,Basalt,14,4.0,Foil,Target,I_Basalt_14.png
-23,I,2,Basalt,7,3.42,Target,Foil,I_Basalt_07.png
 27,I,2,Basalt,11,3.11,Foil,Target,I_Basalt_11.png
 19,I,2,Basalt,3,2.94,Target,Foil,I_Basalt_03.png
-26,I,2,Basalt,10,2.76,Foil,Target,I_Basalt_10.png
-29,I,2,Basalt,13,2.68,Target,Foil,I_Basalt_13.png
 21,I,2,Basalt,5,2.55,Foil,Target,I_Basalt_05.png
 20,I,2,Basalt,4,2.47,Target,Foil,I_Basalt_04.png
-24,I,2,Basalt,8,2.31,Foil,Target,I_Basalt_08.png
-32,I,2,Basalt,16,2.15,Target,Foil,I_Basalt_16.png
 22,I,2,Basalt,6,2.08,Foil,Target,I_Basalt_06.png
 17,I,2,Basalt,1,1.92,Target,Foil,I_Basalt_01.png
-25,I,2,Basalt,9,1.89,Foil,Target,I_Basalt_09.png
-18,I,2,Basalt,2,1.84,Target,Foil,I_Basalt_02.png
 40,I,3,Diorite,8,4.94,Target,Foil,I_Diorite_08.png
 34,I,3,Diorite,2,4.9,Foil,Target,I_Diorite_02.png
-46,I,3,Diorite,14,4.83,Target,Foil,I_Diorite_14.png
-39,I,3,Diorite,7,4.63,Foil,Target,I_Diorite_07.png
 45,I,3,Diorite,13,4.58,Target,Foil,I_Diorite_13.png
 41,I,3,Diorite,9,4.38,Foil,Target,I_Diorite_09.png
-48,I,3,Diorite,16,3.95,Target,Foil,I_Diorite_16.png
-38,I,3,Diorite,6,3.72,Foil,Target,I_Diorite_06.png
 44,I,3,Diorite,12,3.55,Target,Foil,I_Diorite_12.png
 43,I,3,Diorite,11,3.36,Foil,Target,I_Diorite_11.png
-35,I,3,Diorite,3,3.14,Target,Foil,I_Diorite_03.png
-37,I,3,Diorite,5,3.08,Foil,Target,I_Diorite_05.png
 47,I,3,Diorite,15,3.05,Target,Foil,I_Diorite_15.png
 36,I,3,Diorite,4,2.98,Foil,Target,I_Diorite_04.png
-33,I,3,Diorite,1,2.97,Target,Foil,I_Diorite_01.png
-42,I,3,Diorite,10,2.84,Foil,Target,I_Diorite_10.png
 55,I,4,Gabbro,7,4.29,Foil,Target,I_Gabbro_07.png
 52,I,4,Gabbro,4,4.1,Target,Foil,I_Gabbro_04.png
-49,I,4,Gabbro,1,3.61,Foil,Target,I_Gabbro_01.png
-53,I,4,Gabbro,5,3.6,Target,Foil,I_Gabbro_05.png
 51,I,4,Gabbro,3,3.48,Foil,Target,I_Gabbro_03.png
 57,I,4,Gabbro,9,3.48,Target,Foil,I_Gabbro_09.png
-63,I,4,Gabbro,15,3.37,Foil,Target,I_Gabbro_15.png
-61,I,4,Gabbro,13,3.32,Target,Foil,I_Gabbro_13.png
 54,I,4,Gabbro,6,3.26,Foil,Target,I_Gabbro_06.png
 58,I,4,Gabbro,10,3.11,Target,Foil,I_Gabbro_10.png
-56,I,4,Gabbro,8,3.02,Foil,Target,I_Gabbro_08.png
-62,I,4,Gabbro,14,2.95,Target,Foil,I_Gabbro_14.png
 50,I,4,Gabbro,2,2.73,Foil,Target,I_Gabbro_02.png
 60,I,4,Gabbro,12,2.6,Target,Foil,I_Gabbro_12.png
-64,I,4,Gabbro,16,2.52,Foil,Target,I_Gabbro_16.png
-59,I,4,Gabbro,11,1.99,Target,Foil,I_Gabbro_11.png
 73,I,5,Granite,9,5.38,Target,Foil,I_Granite_09.png
 65,I,5,Granite,1,5.23,Foil,Target,I_Granite_01.png
-77,I,5,Granite,13,4.56,Target,Foil,I_Granite_13.png
-69,I,5,Granite,5,4.49,Foil,Target,I_Granite_05.png
 74,I,5,Granite,10,4.34,Target,Foil,I_Granite_10.png
 78,I,5,Granite,14,4.29,Foil,Target,I_Granite_14.png
-79,I,5,Granite,15,4.22,Target,Foil,I_Granite_15.png
-80,I,5,Granite,16,4.06,Foil,Target,I_Granite_16.png
 75,I,5,Granite,11,4.03,Target,Foil,I_Granite_11.png
 72,I,5,Granite,8,3.95,Foil,Target,I_Granite_08.png
-71,I,5,Granite,7,3.89,Target,Foil,I_Granite_07.png
-76,I,5,Granite,12,3.86,Foil,Target,I_Granite_12.png
 70,I,5,Granite,6,3.73,Target,Foil,I_Granite_06.png
 67,I,5,Granite,3,3.6,Foil,Target,I_Granite_03.png
-68,I,5,Granite,4,3.6,Target,Foil,I_Granite_04.png
-66,I,5,Granite,2,3.29,Foil,Target,I_Granite_02.png
 86,I,6,Obsidian,6,8.01,Foil,Target,I_Obsidian_06.png
 85,I,6,Obsidian,5,7.32,Target,Foil,I_Obsidian_05.png
-87,I,6,Obsidian,7,7.28,Foil,Target,I_Obsidian_07.png
-88,I,6,Obsidian,8,6.82,Target,Foil,I_Obsidian_08.png
 95,I,6,Obsidian,15,6.67,Foil,Target,I_Obsidian_15.png
 82,I,6,Obsidian,2,6.06,Target,Foil,I_Obsidian_02.png
-89,I,6,Obsidian,9,5.85,Foil,Target,I_Obsidian_09.png
-90,I,6,Obsidian,10,5.73,Target,Foil,I_Obsidian_10.png
 92,I,6,Obsidian,12,5.7,Foil,Target,I_Obsidian_12.png
 84,I,6,Obsidian,4,5.67,Target,Foil,I_Obsidian_04.png
-96,I,6,Obsidian,16,5.44,Foil,Target,I_Obsidian_16.png
-91,I,6,Obsidian,11,5.22,Target,Foil,I_Obsidian_11.png
 94,I,6,Obsidian,14,5.17,Foil,Target,I_Obsidian_14.png
 93,I,6,Obsidian,13,4.85,Target,Foil,I_Obsidian_13.png
-83,I,6,Obsidian,3,4.51,Foil,Target,I_Obsidian_03.png
-81,I,6,Obsidian,1,4.08,Target,Foil,I_Obsidian_01.png
 106,I,7,Pegmatite,10,7.66,Target,Foil,I_Pegmatite_10.png
 99,I,7,Pegmatite,3,7.24,Foil,Target,I_Pegmatite_03.png
-107,I,7,Pegmatite,11,7.11,Target,Foil,I_Pegmatite_11.png
-104,I,7,Pegmatite,8,7.03,Foil,Target,I_Pegmatite_08.png
 112,I,7,Pegmatite,16,7.03,Target,Foil,I_Pegmatite_16.png
 111,I,7,Pegmatite,15,7.02,Foil,Target,I_Pegmatite_15.png
-103,I,7,Pegmatite,7,6.79,Target,Foil,I_Pegmatite_07.png
-98,I,7,Pegmatite,2,6.37,Foil,Target,I_Pegmatite_02.png
 105,I,7,Pegmatite,9,6.37,Target,Foil,I_Pegmatite_09.png
 101,I,7,Pegmatite,5,6.22,Foil,Target,I_Pegmatite_05.png
-102,I,7,Pegmatite,6,6.01,Target,Foil,I_Pegmatite_06.png
-97,I,7,Pegmatite,1,5.93,Foil,Target,I_Pegmatite_01.png
 108,I,7,Pegmatite,12,5.15,Target,Foil,I_Pegmatite_12.png
 109,I,7,Pegmatite,13,5.15,Foil,Target,I_Pegmatite_13.png
-100,I,7,Pegmatite,4,5.03,Target,Foil,I_Pegmatite_04.png
-110,I,7,Pegmatite,14,4.79,Foil,Target,I_Pegmatite_14.png
 125,I,8,Peridotite,13,7.28,Foil,Target,I_Peridotite_13.png
 116,I,8,Peridotite,4,6.39,Target,Foil,I_Peridotite_04.png
-127,I,8,Peridotite,15,6.28,Foil,Target,I_Peridotite_15.png
-118,I,8,Peridotite,6,5.78,Target,Foil,I_Peridotite_06.png
 115,I,8,Peridotite,3,5.71,Foil,Target,I_Peridotite_03.png
 121,I,8,Peridotite,9,5.71,Target,Foil,I_Peridotite_09.png
-114,I,8,Peridotite,2,5.18,Foil,Target,I_Peridotite_02.png
-124,I,8,Peridotite,12,5.16,Target,Foil,I_Peridotite_12.png
 120,I,8,Peridotite,8,4.77,Foil,Target,I_Peridotite_08.png
 122,I,8,Peridotite,10,4.64,Target,Foil,I_Peridotite_10.png
-128,I,8,Peridotite,16,4.48,Foil,Target,I_Peridotite_16.png
-117,I,8,Peridotite,5,3.89,Target,Foil,I_Peridotite_05.png
 126,I,8,Peridotite,14,3.64,Foil,Target,I_Peridotite_14.png
 123,I,8,Peridotite,11,3.59,Target,Foil,I_Peridotite_11.png
-119,I,8,Peridotite,7,3.46,Foil,Target,I_Peridotite_07.png
-113,I,8,Peridotite,1,2.31,Target,Foil,I_Peridotite_01.png
 137,I,9,Pumice,9,5.5,Target,Foil,I_Pumice_09.png
 144,I,9,Pumice,16,5.37,Foil,Target,I_Pumice_16.png
-138,I,9,Pumice,10,4.58,Target,Foil,I_Pumice_10.png
-130,I,9,Pumice,2,4.41,Foil,Target,I_Pumice_02.png
 143,I,9,Pumice,15,4.18,Target,Foil,I_Pumice_15.png
 134,I,9,Pumice,6,4.16,Foil,Target,I_Pumice_06.png
-135,I,9,Pumice,7,3.58,Target,Foil,I_Pumice_07.png
-132,I,9,Pumice,4,3.48,Foil,Target,I_Pumice_04.png
 131,I,9,Pumice,3,3.41,Target,Foil,I_Pumice_03.png
 133,I,9,Pumice,5,3.37,Foil,Target,I_Pumice_05.png
-129,I,9,Pumice,1,3.25,Target,Foil,I_Pumice_01.png
-142,I,9,Pumice,14,3.22,Foil,Target,I_Pumice_14.png
 141,I,9,Pumice,13,3.12,Target,Foil,I_Pumice_13.png
 136,I,9,Pumice,8,3.1,Foil,Target,I_Pumice_08.png
-140,I,9,Pumice,12,2.97,Target,Foil,I_Pumice_12.png
-139,I,9,Pumice,11,1.74,Foil,Target,I_Pumice_11.png
 150,I,10,Rhyolite,6,5.0,Foil,Target,I_Rhyolite_06.png
 157,I,10,Rhyolite,13,4.83,Target,Foil,I_Rhyolite_13.png
-159,I,10,Rhyolite,15,4.58,Foil,Target,I_Rhyolite_15.png
-147,I,10,Rhyolite,3,4.55,Target,Foil,I_Rhyolite_03.png
 148,I,10,Rhyolite,4,3.73,Foil,Target,I_Rhyolite_04.png
 156,I,10,Rhyolite,12,3.68,Target,Foil,I_Rhyolite_12.png
-153,I,10,Rhyolite,9,3.52,Foil,Target,I_Rhyolite_09.png
-145,I,10,Rhyolite,1,3.36,Target,Foil,I_Rhyolite_01.png
 146,I,10,Rhyolite,2,3.26,Foil,Target,I_Rhyolite_02.png
 149,I,10,Rhyolite,5,3.02,Target,Foil,I_Rhyolite_05.png
-154,I,10,Rhyolite,10,2.88,Foil,Target,I_Rhyolite_10.png
-151,I,10,Rhyolite,7,2.73,Target,Foil,I_Rhyolite_07.png
 158,I,10,Rhyolite,14,2.59,Foil,Target,I_Rhyolite_14.png
 160,I,10,Rhyolite,16,2.19,Target,Foil,I_Rhyolite_16.png
-155,I,10,Rhyolite,11,1.73,Foil,Target,I_Rhyolite_11.png
-152,I,10,Rhyolite,8,1.38,Target,Foil,I_Rhyolite_08.png
 163,M,11,Amphibolite,3,6.58,Target,Foil,M_Amphibolite_03.png
 172,M,11,Amphibolite,12,5.62,Foil,Target,M_Amphibolite_12.png
-171,M,11,Amphibolite,11,5.28,Target,Foil,M_Amphibolite_11.png
-161,M,11,Amphibolite,1,5.2,Foil,Target,M_Amphibolite_01.png
 168,M,11,Amphibolite,8,4.89,Target,Foil,M_Amphibolite_08.png
 169,M,11,Amphibolite,9,3.83,Foil,Target,M_Amphibolite_09.png
-170,M,11,Amphibolite,10,3.83,Target,Foil,M_Amphibolite_10.png
-167,M,11,Amphibolite,7,3.78,Foil,Target,M_Amphibolite_07.png
 174,M,11,Amphibolite,14,3.65,Target,Foil,M_Amphibolite_14.png
 165,M,11,Amphibolite,5,3.59,Foil,Target,M_Amphibolite_05.png
-173,M,11,Amphibolite,13,3.1,Target,Foil,M_Amphibolite_13.png
-176,M,11,Amphibolite,16,2.97,Foil,Target,M_Amphibolite_16.png
 164,M,11,Amphibolite,4,2.89,Target,Foil,M_Amphibolite_04.png
 166,M,11,Amphibolite,6,2.8,Foil,Target,M_Amphibolite_06.png
-162,M,11,Amphibolite,2,2.7,Target,Foil,M_Amphibolite_02.png
-175,M,11,Amphibolite,15,2.7,Foil,Target,M_Amphibolite_15.png
 180,M,12,Anthracite,4,6.25,Foil,Target,M_Anthracite_04.png
 188,M,12,Anthracite,12,5.69,Target,Foil,M_Anthracite_12.png
-192,M,12,Anthracite,16,5.66,Foil,Target,M_Anthracite_16.png
-179,M,12,Anthracite,3,5.43,Target,Foil,M_Anthracite_03.png
 186,M,12,Anthracite,10,5.19,Foil,Target,M_Anthracite_10.png
 189,M,12,Anthracite,13,4.81,Target,Foil,M_Anthracite_13.png
-184,M,12,Anthracite,8,4.77,Foil,Target,M_Anthracite_08.png
-185,M,12,Anthracite,9,4.76,Target,Foil,M_Anthracite_09.png
 181,M,12,Anthracite,5,4.71,Foil,Target,M_Anthracite_05.png
 191,M,12,Anthracite,15,4.62,Target,Foil,M_Anthracite_15.png
-178,M,12,Anthracite,2,4.43,Foil,Target,M_Anthracite_02.png
-187,M,12,Anthracite,11,4.38,Target,Foil,M_Anthracite_11.png
 190,M,12,Anthracite,14,4.36,Foil,Target,M_Anthracite_14.png
 183,M,12,Anthracite,7,4.27,Target,Foil,M_Anthracite_07.png
-177,M,12,Anthracite,1,4.23,Foil,Target,M_Anthracite_01.png
-182,M,12,Anthracite,6,3.36,Target,Foil,M_Anthracite_06.png
 193,M,13,Gneiss,1,4.54,Target,Foil,M_Gneiss_01.png
 204,M,13,Gneiss,12,4.52,Foil,Target,M_Gneiss_12.png
-196,M,13,Gneiss,4,3.89,Target,Foil,M_Gneiss_04.png
-201,M,13,Gneiss,9,3.85,Foil,Target,M_Gneiss_09.png
 194,M,13,Gneiss,2,3.75,Target,Foil,M_Gneiss_02.png
 200,M,13,Gneiss,8,3.69,Foil,Target,M_Gneiss_08.png
-203,M,13,Gneiss,11,3.66,Target,Foil,M_Gneiss_11.png
-208,M,13,Gneiss,16,3.64,Foil,Target,M_Gneiss_16.png
 195,M,13,Gneiss,3,3.63,Target,Foil,M_Gneiss_03.png
 206,M,13,Gneiss,14,3.41,Foil,Target,M_Gneiss_14.png
-199,M,13,Gneiss,7,3.39,Target,Foil,M_Gneiss_07.png
-205,M,13,Gneiss,13,3.26,Foil,Target,M_Gneiss_13.png
 207,M,13,Gneiss,15,3.11,Target,Foil,M_Gneiss_15.png
 202,M,13,Gneiss,10,3.09,Foil,Target,M_Gneiss_10.png
-197,M,13,Gneiss,5,2.97,Target,Foil,M_Gneiss_05.png
-198,M,13,Gneiss,6,2.65,Foil,Target,M_Gneiss_06.png
 221,M,14,Hornfels,13,3.2,Foil,Target,M_Hornfels_13.png
 213,M,14,Hornfels,5,3.12,Target,Foil,M_Hornfels_05.png
-209,M,14,Hornfels,1,3.04,Foil,Target,M_Hornfels_01.png
-215,M,14,Hornfels,7,2.97,Target,Foil,M_Hornfels_07.png
 216,M,14,Hornfels,8,2.9,Foil,Target,M_Hornfels_08.png
 218,M,14,Hornfels,10,2.88,Target,Foil,M_Hornfels_10.png
-224,M,14,Hornfels,16,2.84,Foil,Target,M_Hornfels_16.png
-217,M,14,Hornfels,9,2.7,Target,Foil,M_Hornfels_09.png
 214,M,14,Hornfels,6,2.66,Foil,Target,M_Hornfels_06.png
 220,M,14,Hornfels,12,2.62,Target,Foil,M_Hornfels_12.png
-219,M,14,Hornfels,11,2.59,Foil,Target,M_Hornfels_11.png
-211,M,14,Hornfels,3,2.55,Target,Foil,M_Hornfels_03.png
 222,M,14,Hornfels,14,2.3,Foil,Target,M_Hornfels_14.png
 212,M,14,Hornfels,4,2.22,Target,Foil,M_Hornfels_04.png
-210,M,14,Hornfels,2,2.0,Foil,Target,M_Hornfels_02.png
-223,M,14,Hornfels,15,1.84,Target,Foil,M_Hornfels_15.png
 239,M,15,Marble,15,6.35,Target,Foil,M_Marble_15.png
 232,M,15,Marble,8,4.35,Foil,Target,M_Marble_08.png
-233,M,15,Marble,9,4.25,Target,Foil,M_Marble_09.png
-234,M,15,Marble,10,4.13,Foil,Target,M_Marble_10.png
 225,M,15,Marble,1,4.1,Target,Foil,M_Marble_01.png
 229,M,15,Marble,5,4.1,Foil,Target,M_Marble_05.png
-236,M,15,Marble,12,3.95,Target,Foil,M_Marble_12.png
-235,M,15,Marble,11,3.81,Foil,Target,M_Marble_11.png
 237,M,15,Marble,13,3.8,Target,Foil,M_Marble_13.png
 231,M,15,Marble,7,3.77,Foil,Target,M_Marble_07.png
-230,M,15,Marble,6,3.4,Target,Foil,M_Marble_06.png
-238,M,15,Marble,14,3.31,Foil,Target,M_Marble_14.png
 226,M,15,Marble,2,3.2,Target,Foil,M_Marble_02.png
 228,M,15,Marble,4,3.15,Foil,Target,M_Marble_04.png
-227,M,15,Marble,3,2.67,Target,Foil,M_Marble_03.png
-240,M,15,Marble,16,2.57,Foil,Target,M_Marble_16.png
 255,M,16,Migmatite,15,5.37,Foil,Target,M_Migmatite_15.png
 244,M,16,Migmatite,4,5.07,Target,Foil,M_Migmatite_04.png
-253,M,16,Migmatite,13,5.01,Foil,Target,M_Migmatite_13.png
-241,M,16,Migmatite,1,4.9,Target,Foil,M_Migmatite_01.png
 246,M,16,Migmatite,6,4.63,Foil,Target,M_Migmatite_06.png
 254,M,16,Migmatite,14,4.62,Target,Foil,M_Migmatite_14.png
-247,M,16,Migmatite,7,4.38,Foil,Target,M_Migmatite_07.png
-251,M,16,Migmatite,11,4.36,Target,Foil,M_Migmatite_11.png
 245,M,16,Migmatite,5,4.03,Foil,Target,M_Migmatite_05.png
 252,M,16,Migmatite,12,4.03,Target,Foil,M_Migmatite_12.png
-242,M,16,Migmatite,2,3.98,Foil,Target,M_Migmatite_02.png
-256,M,16,Migmatite,16,3.86,Target,Foil,M_Migmatite_16.png
 249,M,16,Migmatite,9,3.84,Foil,Target,M_Migmatite_09.png
 243,M,16,Migmatite,3,3.7,Target,Foil,M_Migmatite_03.png
-250,M,16,Migmatite,10,3.3,Foil,Target,M_Migmatite_10.png
-248,M,16,Migmatite,8,2.79,Target,Foil,M_Migmatite_08.png
 257,M,17,Phyllite,1,5.54,Target,Foil,M_Phyllite_01.png
 260,M,17,Phyllite,4,4.37,Foil,Target,M_Phyllite_04.png
-264,M,17,Phyllite,8,4.33,Target,Foil,M_Phyllite_08.png
-270,M,17,Phyllite,14,4.08,Foil,Target,M_Phyllite_14.png
 268,M,17,Phyllite,12,3.83,Target,Foil,M_Phyllite_12.png
 267,M,17,Phyllite,11,3.56,Foil,Target,M_Phyllite_11.png
-272,M,17,Phyllite,16,3.06,Target,Foil,M_Phyllite_16.png
-271,M,17,Phyllite,15,3.05,Foil,Target,M_Phyllite_15.png
 262,M,17,Phyllite,6,3.03,Target,Foil,M_Phyllite_06.png
 265,M,17,Phyllite,9,2.96,Foil,Target,M_Phyllite_09.png
-258,M,17,Phyllite,2,2.89,Target,Foil,M_Phyllite_02.png
-269,M,17,Phyllite,13,2.8,Foil,Target,M_Phyllite_13.png
 266,M,17,Phyllite,10,2.6,Target,Foil,M_Phyllite_10.png
 263,M,17,Phyllite,7,2.59,Foil,Target,M_Phyllite_07.png
-259,M,17,Phyllite,3,2.5,Target,Foil,M_Phyllite_03.png
-261,M,17,Phyllite,5,2.14,Foil,Target,M_Phyllite_05.png
 282,M,18,Quartzite,10,3.75,Foil,Target,M_Quartzite_10.png
 278,M,18,Quartzite,6,3.63,Target,Foil,M_Quartzite_06.png
-275,M,18,Quartzite,3,3.6,Foil,Target,M_Quartzite_03.png
-288,M,18,Quartzite,16,3.41,Target,Foil,M_Quartzite_16.png
 286,M,18,Quartzite,14,3.3,Foil,Target,M_Quartzite_14.png
 276,M,18,Quartzite,4,3.06,Target,Foil,M_Quartzite_04.png
-283,M,18,Quartzite,11,2.89,Foil,Target,M_Quartzite_11.png
-281,M,18,Quartzite,9,2.62,Target,Foil,M_Quartzite_09.png
 274,M,18,Quartzite,2,2.52,Foil,Target,M_Quartzite_02.png
 273,M,18,Quartzite,1,2.3,Target,Foil,M_Quartzite_01.png
-285,M,18,Quartzite,13,2.27,Foil,Target,M_Quartzite_13.png
-277,M,18,Quartzite,5,2.23,Target,Foil,M_Quartzite_05.png
 287,M,18,Quartzite,15,2.19,Foil,Target,M_Quartzite_15.png
 280,M,18,Quartzite,8,2.15,Target,Foil,M_Quartzite_08.png
-279,M,18,Quartzite,7,1.97,Foil,Target,M_Quartzite_07.png
-284,M,18,Quartzite,12,1.92,Target,Foil,M_Quartzite_12.png
 296,M,19,Schist,8,6.46,Target,Foil,M_Schist_08.png
 299,M,19,Schist,11,6.22,Foil,Target,M_Schist_11.png
-294,M,19,Schist,6,4.98,Target,Foil,M_Schist_06.png
-304,M,19,Schist,16,4.97,Foil,Target,M_Schist_16.png
 300,M,19,Schist,12,4.27,Target,Foil,M_Schist_12.png
 295,M,19,Schist,7,4.2,Foil,Target,M_Schist_07.png
-302,M,19,Schist,14,4.12,Target,Foil,M_Schist_14.png
-291,M,19,Schist,3,4.03,Foil,Target,M_Schist_03.png
 293,M,19,Schist,5,3.66,Target,Foil,M_Schist_05.png
 292,M,19,Schist,4,3.63,Foil,Target,M_Schist_04.png
-298,M,19,Schist,10,3.42,Target,Foil,M_Schist_10.png
-290,M,19,Schist,2,3.37,Foil,Target,M_Schist_02.png
 301,M,19,Schist,13,3.37,Target,Foil,M_Schist_13.png
 297,M,19,Schist,9,3.31,Foil,Target,M_Schist_09.png
-303,M,19,Schist,15,3.26,Target,Foil,M_Schist_15.png
-289,M,19,Schist,1,2.56,Foil,Target,M_Schist_01.png
 313,M,20,Slate,9,3.6,Foil,Target,M_Slate_09.png
 311,M,20,Slate,7,3.48,Target,Foil,M_Slate_07.png
-316,M,20,Slate,12,3.25,Foil,Target,M_Slate_12.png
-305,M,20,Slate,1,2.89,Target,Foil,M_Slate_01.png
 306,M,20,Slate,2,2.88,Foil,Target,M_Slate_02.png
 310,M,20,Slate,6,2.86,Target,Foil,M_Slate_06.png
-315,M,20,Slate,11,2.75,Foil,Target,M_Slate_11.png
-309,M,20,Slate,5,2.63,Target,Foil,M_Slate_05.png
 318,M,20,Slate,14,2.58,Foil,Target,M_Slate_14.png
 320,M,20,Slate,16,2.55,Target,Foil,M_Slate_16.png
-317,M,20,Slate,13,2.45,Foil,Target,M_Slate_13.png
-308,M,20,Slate,4,2.2,Target,Foil,M_Slate_04.png
 319,M,20,Slate,15,2.13,Foil,Target,M_Slate_15.png
 314,M,20,Slate,10,1.94,Target,Foil,M_Slate_10.png
-312,M,20,Slate,8,1.9,Foil,Target,M_Slate_08.png
-307,M,20,Slate,3,1.87,Target,Foil,M_Slate_03.png
 333,S,21,Bituminous Coal,13,5.06,Target,Foil,S_Bituminous Coal_13.png
 324,S,21,Bituminous Coal,4,4.93,Foil,Target,S_Bituminous Coal_04.png
-322,S,21,Bituminous Coal,2,4.82,Target,Foil,S_Bituminous Coal_02.png
-329,S,21,Bituminous Coal,9,4.68,Foil,Target,S_Bituminous Coal_09.png
 334,S,21,Bituminous Coal,14,4.51,Target,Foil,S_Bituminous Coal_14.png
 336,S,21,Bituminous Coal,16,4.3,Foil,Target,S_Bituminous Coal_16.png
-323,S,21,Bituminous Coal,3,4.2,Target,Foil,S_Bituminous Coal_03.png
-321,S,21,Bituminous Coal,1,4.17,Foil,Target,S_Bituminous Coal_01.png
 328,S,21,Bituminous Coal,8,3.92,Target,Foil,S_Bituminous Coal_08.png
 331,S,21,Bituminous Coal,11,3.71,Foil,Target,S_Bituminous Coal_11.png
-325,S,21,Bituminous Coal,5,3.63,Target,Foil,S_Bituminous Coal_05.png
-332,S,21,Bituminous Coal,12,3.5,Foil,Target,S_Bituminous Coal_12.png
 330,S,21,Bituminous Coal,10,3.47,Target,Foil,S_Bituminous Coal_10.png
 326,S,21,Bituminous Coal,6,3.4,Foil,Target,S_Bituminous Coal_06.png
-335,S,21,Bituminous Coal,15,3.21,Target,Foil,S_Bituminous Coal_15.png
-327,S,21,Bituminous Coal,7,3.0,Foil,Target,S_Bituminous Coal_07.png
 337,S,22,Breccia,1,7.35,Foil,Target,S_Breccia_01.png
 344,S,22,Breccia,8,7.14,Target,Foil,S_Breccia_08.png
-345,S,22,Breccia,9,6.7,Foil,Target,S_Breccia_09.png
-347,S,22,Breccia,11,6.7,Target,Foil,S_Breccia_11.png
 341,S,22,Breccia,5,6.25,Foil,Target,S_Breccia_05.png
 343,S,22,Breccia,7,6.19,Target,Foil,S_Breccia_07.png
-338,S,22,Breccia,2,5.94,Foil,Target,S_Breccia_02.png
-352,S,22,Breccia,16,5.94,Target,Foil,S_Breccia_16.png
 349,S,22,Breccia,13,5.56,Foil,Target,S_Breccia_13.png
 351,S,22,Breccia,15,5.43,Target,Foil,S_Breccia_15.png
-342,S,22,Breccia,6,5.23,Foil,Target,S_Breccia_06.png
-340,S,22,Breccia,4,5.13,Target,Foil,S_Breccia_04.png
 339,S,22,Breccia,3,5.07,Foil,Target,S_Breccia_03.png
 348,S,22,Breccia,12,5.03,Target,Foil,S_Breccia_12.png
-346,S,22,Breccia,10,5.0,Foil,Target,S_Breccia_10.png
-350,S,22,Breccia,14,4.6,Target,Foil,S_Breccia_14.png
 362,S,23,Chert,10,7.17,Target,Foil,S_Chert_10.png
 363,S,23,Chert,11,7.12,Foil,Target,S_Chert_11.png
-365,S,23,Chert,13,6.57,Target,Foil,S_Chert_13.png
-360,S,23,Chert,8,5.52,Foil,Target,S_Chert_08.png
 368,S,23,Chert,16,5.43,Target,Foil,S_Chert_16.png
 355,S,23,Chert,3,5.3,Foil,Target,S_Chert_03.png
-353,S,23,Chert,1,5.21,Target,Foil,S_Chert_01.png
-357,S,23,Chert,5,5.12,Foil,Target,S_Chert_05.png
 361,S,23,Chert,9,4.92,Target,Foil,S_Chert_09.png
 366,S,23,Chert,14,4.5,Foil,Target,S_Chert_14.png
-358,S,23,Chert,6,4.22,Target,Foil,S_Chert_06.png
-367,S,23,Chert,15,4.11,Foil,Target,S_Chert_15.png
 364,S,23,Chert,12,4.06,Target,Foil,S_Chert_12.png
 354,S,23,Chert,2,3.81,Foil,Target,S_Chert_02.png
-356,S,23,Chert,4,2.74,Target,Foil,S_Chert_04.png
-359,S,23,Chert,7,2.65,Foil,Target,S_Chert_07.png
 373,S,24,Conglomerate,5,7.32,Foil,Target,S_Conglomerate_05.png
 375,S,24,Conglomerate,7,6.97,Target,Foil,S_Conglomerate_07.png
-382,S,24,Conglomerate,14,6.86,Foil,Target,S_Conglomerate_14.png
-383,S,24,Conglomerate,15,6.71,Target,Foil,S_Conglomerate_15.png
 381,S,24,Conglomerate,13,6.48,Foil,Target,S_Conglomerate_13.png
 384,S,24,Conglomerate,16,6.38,Target,Foil,S_Conglomerate_16.png
-369,S,24,Conglomerate,1,6.23,Foil,Target,S_Conglomerate_01.png
-379,S,24,Conglomerate,11,5.97,Target,Foil,S_Conglomerate_11.png
 372,S,24,Conglomerate,4,5.91,Foil,Target,S_Conglomerate_04.png
 378,S,24,Conglomerate,10,5.63,Target,Foil,S_Conglomerate_10.png
-377,S,24,Conglomerate,9,5.21,Foil,Target,S_Conglomerate_09.png
-370,S,24,Conglomerate,2,5.13,Target,Foil,S_Conglomerate_02.png
 376,S,24,Conglomerate,8,4.83,Foil,Target,S_Conglomerate_08.png
 371,S,24,Conglomerate,3,4.73,Target,Foil,S_Conglomerate_03.png
-374,S,24,Conglomerate,6,4.24,Foil,Target,S_Conglomerate_06.png
-380,S,24,Conglomerate,12,3.05,Target,Foil,S_Conglomerate_12.png
 395,S,25,Dolomite,11,5.56,Target,Foil,S_Dolomite_11.png
 386,S,25,Dolomite,2,5.49,Foil,Target,S_Dolomite_02.png
-389,S,25,Dolomite,5,3.84,Target,Foil,S_Dolomite_05.png
-392,S,25,Dolomite,8,3.66,Foil,Target,S_Dolomite_08.png
 394,S,25,Dolomite,10,3.57,Target,Foil,S_Dolomite_10.png
 387,S,25,Dolomite,3,3.42,Foil,Target,S_Dolomite_03.png
-390,S,25,Dolomite,6,2.51,Target,Foil,S_Dolomite_06.png
-399,S,25,Dolomite,15,2.16,Foil,Target,S_Dolomite_15.png
 393,S,25,Dolomite,9,2.11,Target,Foil,S_Dolomite_09.png
 388,S,25,Dolomite,4,1.93,Foil,Target,S_Dolomite_04.png
-396,S,25,Dolomite,12,1.85,Target,Foil,S_Dolomite_12.png
-397,S,25,Dolomite,13,1.77,Foil,Target,S_Dolomite_13.png
 391,S,25,Dolomite,7,1.73,Target,Foil,S_Dolomite_07.png
 400,S,25,Dolomite,16,1.71,Foil,Target,S_Dolomite_16.png
-385,S,25,Dolomite,1,1.43,Target,Foil,S_Dolomite_01.png
-398,S,25,Dolomite,14,1.43,Foil,Target,S_Dolomite_14.png
 405,S,26,Micrite,5,8.21,Foil,Target,S_Micrite_05.png
 403,S,26,Micrite,3,4.0,Target,Foil,S_Micrite_03.png
-404,S,26,Micrite,4,3.76,Foil,Target,S_Micrite_04.png
-408,S,26,Micrite,8,3.71,Target,Foil,S_Micrite_08.png
 412,S,26,Micrite,12,3.14,Foil,Target,S_Micrite_12.png
 401,S,26,Micrite,1,2.94,Target,Foil,S_Micrite_01.png
-402,S,26,Micrite,2,2.77,Foil,Target,S_Micrite_02.png
-409,S,26,Micrite,9,2.7,Target,Foil,S_Micrite_09.png
 414,S,26,Micrite,14,2.42,Foil,Target,S_Micrite_14.png
 415,S,26,Micrite,15,2.28,Target,Foil,S_Micrite_15.png
-416,S,26,Micrite,16,2.21,Foil,Target,S_Micrite_16.png
-413,S,26,Micrite,13,2.16,Target,Foil,S_Micrite_13.png
 411,S,26,Micrite,11,1.87,Foil,Target,S_Micrite_11.png
 407,S,26,Micrite,7,1.85,Target,Foil,S_Micrite_07.png
-406,S,26,Micrite,6,1.8,Foil,Target,S_Micrite_06.png
-410,S,26,Micrite,10,1.68,Target,Foil,S_Micrite_10.png
 420,S,27,Rock Gypsum,4,7.61,Target,Foil,S_Rock Gypsum_04.png
 430,S,27,Rock Gypsum,14,7.01,Foil,Target,S_Rock Gypsum_14.png
-428,S,27,Rock Gypsum,12,6.22,Target,Foil,S_Rock Gypsum_12.png
-431,S,27,Rock Gypsum,15,6.11,Foil,Target,S_Rock Gypsum_15.png
 425,S,27,Rock Gypsum,9,6.03,Target,Foil,S_Rock Gypsum_09.png
 424,S,27,Rock Gypsum,8,5.57,Foil,Target,S_Rock Gypsum_08.png
-432,S,27,Rock Gypsum,16,5.49,Target,Foil,S_Rock Gypsum_16.png
-418,S,27,Rock Gypsum,2,5.19,Foil,Target,S_Rock Gypsum_02.png
 429,S,27,Rock Gypsum,13,4.94,Target,Foil,S_Rock Gypsum_13.png
 427,S,27,Rock Gypsum,11,4.73,Foil,Target,S_Rock Gypsum_11.png
-426,S,27,Rock Gypsum,10,4.72,Target,Foil,S_Rock Gypsum_10.png
-419,S,27,Rock Gypsum,3,4.18,Foil,Target,S_Rock Gypsum_03.png
 417,S,27,Rock Gypsum,1,3.97,Target,Foil,S_Rock Gypsum_01.png
 421,S,27,Rock Gypsum,5,3.48,Foil,Target,S_Rock Gypsum_05.png
-423,S,27,Rock Gypsum,7,2.64,Target,Foil,S_Rock Gypsum_07.png
-422,S,27,Rock Gypsum,6,2.61,Foil,Target,S_Rock Gypsum_06.png
 436,S,28,Rock Salt,4,7.89,Foil,Target,S_Rock Salt_04.png
 447,S,28,Rock Salt,15,7.79,Target,Foil,S_Rock Salt_15.png
-445,S,28,Rock Salt,13,7.58,Foil,Target,S_Rock Salt_13.png
-446,S,28,Rock Salt,14,7.57,Target,Foil,S_Rock Salt_14.png
 433,S,28,Rock Salt,1,7.18,Foil,Target,S_Rock Salt_01.png
 441,S,28,Rock Salt,9,7.08,Target,Foil,S_Rock Salt_09.png
-439,S,28,Rock Salt,7,6.66,Foil,Target,S_Rock Salt_07.png
-440,S,28,Rock Salt,8,6.26,Target,Foil,S_Rock Salt_08.png
 448,S,28,Rock Salt,16,6.23,Foil,Target,S_Rock Salt_16.png
 444,S,28,Rock Salt,12,5.86,Target,Foil,S_Rock Salt_12.png
-438,S,28,Rock Salt,6,5.53,Foil,Target,S_Rock Salt_06.png
-437,S,28,Rock Salt,5,5.16,Target,Foil,S_Rock Salt_05.png
 434,S,28,Rock Salt,2,5.13,Foil,Target,S_Rock Salt_02.png
 443,S,28,Rock Salt,11,4.9,Target,Foil,S_Rock Salt_11.png
-435,S,28,Rock Salt,3,4.83,Foil,Target,S_Rock Salt_03.png
-442,S,28,Rock Salt,10,4.0,Target,Foil,S_Rock Salt_10.png
 453,S,29,Sandstone,5,5.42,Target,Foil,S_Sandstone_05.png
 455,S,29,Sandstone,7,5.02,Foil,Target,S_Sandstone_07.png
-449,S,29,Sandstone,1,4.78,Target,Foil,S_Sandstone_01.png
-454,S,29,Sandstone,6,3.7,Foil,Target,S_Sandstone_06.png
 457,S,29,Sandstone,9,3.66,Target,Foil,S_Sandstone_09.png
 461,S,29,Sandstone,13,2.94,Foil,Target,S_Sandstone_13.png
-460,S,29,Sandstone,12,2.68,Target,Foil,S_Sandstone_12.png
-462,S,29,Sandstone,14,2.57,Foil,Target,S_Sandstone_14.png
 450,S,29,Sandstone,2,2.09,Target,Foil,S_Sandstone_02.png
 458,S,29,Sandstone,10,2.05,Foil,Target,S_Sandstone_10.png
-463,S,29,Sandstone,15,2.0,Target,Foil,S_Sandstone_15.png
-464,S,29,Sandstone,16,1.93,Foil,Target,S_Sandstone_16.png
 451,S,29,Sandstone,3,1.86,Target,Foil,S_Sandstone_03.png
 459,S,29,Sandstone,11,1.82,Foil,Target,S_Sandstone_11.png
-452,S,29,Sandstone,4,1.8,Target,Foil,S_Sandstone_04.png
-456,S,29,Sandstone,8,1.5,Foil,Target,S_Sandstone_08.png
 470,S,30,Shale,6,4.11,Foil,Target,S_Shale_06.png
 475,S,30,Shale,11,4.05,Target,Foil,S_Shale_11.png
-473,S,30,Shale,9,3.7,Foil,Target,S_Shale_09.png
-466,S,30,Shale,2,2.9,Target,Foil,S_Shale_02.png
 471,S,30,Shale,7,2.73,Foil,Target,S_Shale_07.png
 465,S,30,Shale,1,2.7,Target,Foil,S_Shale_01.png
-478,S,30,Shale,14,2.68,Foil,Target,S_Shale_14.png
-469,S,30,Shale,5,2.55,Target,Foil,S_Shale_05.png
 472,S,30,Shale,8,2.55,Foil,Target,S_Shale_08.png
 476,S,30,Shale,12,2.48,Target,Foil,S_Shale_12.png
-480,S,30,Shale,16,2.31,Foil,Target,S_Shale_16.png
-468,S,30,Shale,4,2.23,Target,Foil,S_Shale_04.png
 467,S,30,Shale,3,1.95,Foil,Target,S_Shale_03.png
 474,S,30,Shale,10,1.91,Target,Foil,S_Shale_10.png
-477,S,30,Shale,13,1.88,Foil,Target,S_Shale_13.png
-479,S,30,Shale,15,1.84,Target,Foil,S_Shale_15.png

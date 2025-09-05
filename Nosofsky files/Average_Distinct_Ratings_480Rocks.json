@@ -22,28 +22,6 @@
     "image_png":"I_Andesite_14.png"
   },
   {
-    "image_id":1,
-    "Broad_Category_Name":"I",
-    "Category":1,
-    "Category_Name":"Andesite",
-    "Item":1,
-    "Distinct_Rating":3.99,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Andesite_01.png"
-  },
-  {
-    "image_id":15,
-    "Broad_Category_Name":"I",
-    "Category":1,
-    "Category_Name":"Andesite",
-    "Item":15,
-    "Distinct_Rating":3.98,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Andesite_15.png"
-  },
-  {
     "image_id":2,
     "Broad_Category_Name":"I",
     "Category":1,
@@ -64,28 +42,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"I_Andesite_12.png"
-  },
-  {
-    "image_id":16,
-    "Broad_Category_Name":"I",
-    "Category":1,
-    "Category_Name":"Andesite",
-    "Item":16,
-    "Distinct_Rating":3.57,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Andesite_16.png"
-  },
-  {
-    "image_id":13,
-    "Broad_Category_Name":"I",
-    "Category":1,
-    "Category_Name":"Andesite",
-    "Item":13,
-    "Distinct_Rating":3.54,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Andesite_13.png"
   },
   {
     "image_id":11,
@@ -110,28 +66,6 @@
     "image_png":"I_Andesite_05.png"
   },
   {
-    "image_id":4,
-    "Broad_Category_Name":"I",
-    "Category":1,
-    "Category_Name":"Andesite",
-    "Item":4,
-    "Distinct_Rating":3.18,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Andesite_04.png"
-  },
-  {
-    "image_id":3,
-    "Broad_Category_Name":"I",
-    "Category":1,
-    "Category_Name":"Andesite",
-    "Item":3,
-    "Distinct_Rating":3.17,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Andesite_03.png"
-  },
-  {
     "image_id":6,
     "Broad_Category_Name":"I",
     "Category":1,
@@ -152,28 +86,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"I_Andesite_10.png"
-  },
-  {
-    "image_id":9,
-    "Broad_Category_Name":"I",
-    "Category":1,
-    "Category_Name":"Andesite",
-    "Item":9,
-    "Distinct_Rating":2.49,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Andesite_09.png"
-  },
-  {
-    "image_id":8,
-    "Broad_Category_Name":"I",
-    "Category":1,
-    "Category_Name":"Andesite",
-    "Item":8,
-    "Distinct_Rating":1.95,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Andesite_08.png"
   },
   {
     "image_id":28,
@@ -198,28 +110,6 @@
     "image_png":"I_Basalt_15.png"
   },
   {
-    "image_id":30,
-    "Broad_Category_Name":"I",
-    "Category":2,
-    "Category_Name":"Basalt",
-    "Item":14,
-    "Distinct_Rating":4.0,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Basalt_14.png"
-  },
-  {
-    "image_id":23,
-    "Broad_Category_Name":"I",
-    "Category":2,
-    "Category_Name":"Basalt",
-    "Item":7,
-    "Distinct_Rating":3.42,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Basalt_07.png"
-  },
-  {
     "image_id":27,
     "Broad_Category_Name":"I",
     "Category":2,
@@ -240,28 +130,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"I_Basalt_03.png"
-  },
-  {
-    "image_id":26,
-    "Broad_Category_Name":"I",
-    "Category":2,
-    "Category_Name":"Basalt",
-    "Item":10,
-    "Distinct_Rating":2.76,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Basalt_10.png"
-  },
-  {
-    "image_id":29,
-    "Broad_Category_Name":"I",
-    "Category":2,
-    "Category_Name":"Basalt",
-    "Item":13,
-    "Distinct_Rating":2.68,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Basalt_13.png"
   },
   {
     "image_id":21,
@@ -286,28 +154,6 @@
     "image_png":"I_Basalt_04.png"
   },
   {
-    "image_id":24,
-    "Broad_Category_Name":"I",
-    "Category":2,
-    "Category_Name":"Basalt",
-    "Item":8,
-    "Distinct_Rating":2.31,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Basalt_08.png"
-  },
-  {
-    "image_id":32,
-    "Broad_Category_Name":"I",
-    "Category":2,
-    "Category_Name":"Basalt",
-    "Item":16,
-    "Distinct_Rating":2.15,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Basalt_16.png"
-  },
-  {
     "image_id":22,
     "Broad_Category_Name":"I",
     "Category":2,
@@ -328,28 +174,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"I_Basalt_01.png"
-  },
-  {
-    "image_id":25,
-    "Broad_Category_Name":"I",
-    "Category":2,
-    "Category_Name":"Basalt",
-    "Item":9,
-    "Distinct_Rating":1.89,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Basalt_09.png"
-  },
-  {
-    "image_id":18,
-    "Broad_Category_Name":"I",
-    "Category":2,
-    "Category_Name":"Basalt",
-    "Item":2,
-    "Distinct_Rating":1.84,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Basalt_02.png"
   },
   {
     "image_id":40,
@@ -374,28 +198,6 @@
     "image_png":"I_Diorite_02.png"
   },
   {
-    "image_id":46,
-    "Broad_Category_Name":"I",
-    "Category":3,
-    "Category_Name":"Diorite",
-    "Item":14,
-    "Distinct_Rating":4.83,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Diorite_14.png"
-  },
-  {
-    "image_id":39,
-    "Broad_Category_Name":"I",
-    "Category":3,
-    "Category_Name":"Diorite",
-    "Item":7,
-    "Distinct_Rating":4.63,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Diorite_07.png"
-  },
-  {
     "image_id":45,
     "Broad_Category_Name":"I",
     "Category":3,
@@ -416,28 +218,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"I_Diorite_09.png"
-  },
-  {
-    "image_id":48,
-    "Broad_Category_Name":"I",
-    "Category":3,
-    "Category_Name":"Diorite",
-    "Item":16,
-    "Distinct_Rating":3.95,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Diorite_16.png"
-  },
-  {
-    "image_id":38,
-    "Broad_Category_Name":"I",
-    "Category":3,
-    "Category_Name":"Diorite",
-    "Item":6,
-    "Distinct_Rating":3.72,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Diorite_06.png"
   },
   {
     "image_id":44,
@@ -462,28 +242,6 @@
     "image_png":"I_Diorite_11.png"
   },
   {
-    "image_id":35,
-    "Broad_Category_Name":"I",
-    "Category":3,
-    "Category_Name":"Diorite",
-    "Item":3,
-    "Distinct_Rating":3.14,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Diorite_03.png"
-  },
-  {
-    "image_id":37,
-    "Broad_Category_Name":"I",
-    "Category":3,
-    "Category_Name":"Diorite",
-    "Item":5,
-    "Distinct_Rating":3.08,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Diorite_05.png"
-  },
-  {
     "image_id":47,
     "Broad_Category_Name":"I",
     "Category":3,
@@ -504,28 +262,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"I_Diorite_04.png"
-  },
-  {
-    "image_id":33,
-    "Broad_Category_Name":"I",
-    "Category":3,
-    "Category_Name":"Diorite",
-    "Item":1,
-    "Distinct_Rating":2.97,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Diorite_01.png"
-  },
-  {
-    "image_id":42,
-    "Broad_Category_Name":"I",
-    "Category":3,
-    "Category_Name":"Diorite",
-    "Item":10,
-    "Distinct_Rating":2.84,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Diorite_10.png"
   },
   {
     "image_id":55,
@@ -550,28 +286,6 @@
     "image_png":"I_Gabbro_04.png"
   },
   {
-    "image_id":49,
-    "Broad_Category_Name":"I",
-    "Category":4,
-    "Category_Name":"Gabbro",
-    "Item":1,
-    "Distinct_Rating":3.61,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Gabbro_01.png"
-  },
-  {
-    "image_id":53,
-    "Broad_Category_Name":"I",
-    "Category":4,
-    "Category_Name":"Gabbro",
-    "Item":5,
-    "Distinct_Rating":3.6,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Gabbro_05.png"
-  },
-  {
     "image_id":51,
     "Broad_Category_Name":"I",
     "Category":4,
@@ -592,28 +306,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"I_Gabbro_09.png"
-  },
-  {
-    "image_id":63,
-    "Broad_Category_Name":"I",
-    "Category":4,
-    "Category_Name":"Gabbro",
-    "Item":15,
-    "Distinct_Rating":3.37,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Gabbro_15.png"
-  },
-  {
-    "image_id":61,
-    "Broad_Category_Name":"I",
-    "Category":4,
-    "Category_Name":"Gabbro",
-    "Item":13,
-    "Distinct_Rating":3.32,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Gabbro_13.png"
   },
   {
     "image_id":54,
@@ -638,28 +330,6 @@
     "image_png":"I_Gabbro_10.png"
   },
   {
-    "image_id":56,
-    "Broad_Category_Name":"I",
-    "Category":4,
-    "Category_Name":"Gabbro",
-    "Item":8,
-    "Distinct_Rating":3.02,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Gabbro_08.png"
-  },
-  {
-    "image_id":62,
-    "Broad_Category_Name":"I",
-    "Category":4,
-    "Category_Name":"Gabbro",
-    "Item":14,
-    "Distinct_Rating":2.95,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Gabbro_14.png"
-  },
-  {
     "image_id":50,
     "Broad_Category_Name":"I",
     "Category":4,
@@ -680,28 +350,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"I_Gabbro_12.png"
-  },
-  {
-    "image_id":64,
-    "Broad_Category_Name":"I",
-    "Category":4,
-    "Category_Name":"Gabbro",
-    "Item":16,
-    "Distinct_Rating":2.52,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Gabbro_16.png"
-  },
-  {
-    "image_id":59,
-    "Broad_Category_Name":"I",
-    "Category":4,
-    "Category_Name":"Gabbro",
-    "Item":11,
-    "Distinct_Rating":1.99,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Gabbro_11.png"
   },
   {
     "image_id":73,
@@ -726,28 +374,6 @@
     "image_png":"I_Granite_01.png"
   },
   {
-    "image_id":77,
-    "Broad_Category_Name":"I",
-    "Category":5,
-    "Category_Name":"Granite",
-    "Item":13,
-    "Distinct_Rating":4.56,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Granite_13.png"
-  },
-  {
-    "image_id":69,
-    "Broad_Category_Name":"I",
-    "Category":5,
-    "Category_Name":"Granite",
-    "Item":5,
-    "Distinct_Rating":4.49,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Granite_05.png"
-  },
-  {
     "image_id":74,
     "Broad_Category_Name":"I",
     "Category":5,
@@ -768,28 +394,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"I_Granite_14.png"
-  },
-  {
-    "image_id":79,
-    "Broad_Category_Name":"I",
-    "Category":5,
-    "Category_Name":"Granite",
-    "Item":15,
-    "Distinct_Rating":4.22,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Granite_15.png"
-  },
-  {
-    "image_id":80,
-    "Broad_Category_Name":"I",
-    "Category":5,
-    "Category_Name":"Granite",
-    "Item":16,
-    "Distinct_Rating":4.06,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Granite_16.png"
   },
   {
     "image_id":75,
@@ -814,28 +418,6 @@
     "image_png":"I_Granite_08.png"
   },
   {
-    "image_id":71,
-    "Broad_Category_Name":"I",
-    "Category":5,
-    "Category_Name":"Granite",
-    "Item":7,
-    "Distinct_Rating":3.89,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Granite_07.png"
-  },
-  {
-    "image_id":76,
-    "Broad_Category_Name":"I",
-    "Category":5,
-    "Category_Name":"Granite",
-    "Item":12,
-    "Distinct_Rating":3.86,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Granite_12.png"
-  },
-  {
     "image_id":70,
     "Broad_Category_Name":"I",
     "Category":5,
@@ -856,28 +438,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"I_Granite_03.png"
-  },
-  {
-    "image_id":68,
-    "Broad_Category_Name":"I",
-    "Category":5,
-    "Category_Name":"Granite",
-    "Item":4,
-    "Distinct_Rating":3.6,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Granite_04.png"
-  },
-  {
-    "image_id":66,
-    "Broad_Category_Name":"I",
-    "Category":5,
-    "Category_Name":"Granite",
-    "Item":2,
-    "Distinct_Rating":3.29,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Granite_02.png"
   },
   {
     "image_id":86,
@@ -902,28 +462,6 @@
     "image_png":"I_Obsidian_05.png"
   },
   {
-    "image_id":87,
-    "Broad_Category_Name":"I",
-    "Category":6,
-    "Category_Name":"Obsidian",
-    "Item":7,
-    "Distinct_Rating":7.28,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Obsidian_07.png"
-  },
-  {
-    "image_id":88,
-    "Broad_Category_Name":"I",
-    "Category":6,
-    "Category_Name":"Obsidian",
-    "Item":8,
-    "Distinct_Rating":6.82,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Obsidian_08.png"
-  },
-  {
     "image_id":95,
     "Broad_Category_Name":"I",
     "Category":6,
@@ -944,28 +482,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"I_Obsidian_02.png"
-  },
-  {
-    "image_id":89,
-    "Broad_Category_Name":"I",
-    "Category":6,
-    "Category_Name":"Obsidian",
-    "Item":9,
-    "Distinct_Rating":5.85,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Obsidian_09.png"
-  },
-  {
-    "image_id":90,
-    "Broad_Category_Name":"I",
-    "Category":6,
-    "Category_Name":"Obsidian",
-    "Item":10,
-    "Distinct_Rating":5.73,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Obsidian_10.png"
   },
   {
     "image_id":92,
@@ -990,28 +506,6 @@
     "image_png":"I_Obsidian_04.png"
   },
   {
-    "image_id":96,
-    "Broad_Category_Name":"I",
-    "Category":6,
-    "Category_Name":"Obsidian",
-    "Item":16,
-    "Distinct_Rating":5.44,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Obsidian_16.png"
-  },
-  {
-    "image_id":91,
-    "Broad_Category_Name":"I",
-    "Category":6,
-    "Category_Name":"Obsidian",
-    "Item":11,
-    "Distinct_Rating":5.22,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Obsidian_11.png"
-  },
-  {
     "image_id":94,
     "Broad_Category_Name":"I",
     "Category":6,
@@ -1032,28 +526,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"I_Obsidian_13.png"
-  },
-  {
-    "image_id":83,
-    "Broad_Category_Name":"I",
-    "Category":6,
-    "Category_Name":"Obsidian",
-    "Item":3,
-    "Distinct_Rating":4.51,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Obsidian_03.png"
-  },
-  {
-    "image_id":81,
-    "Broad_Category_Name":"I",
-    "Category":6,
-    "Category_Name":"Obsidian",
-    "Item":1,
-    "Distinct_Rating":4.08,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Obsidian_01.png"
   },
   {
     "image_id":106,
@@ -1078,28 +550,6 @@
     "image_png":"I_Pegmatite_03.png"
   },
   {
-    "image_id":107,
-    "Broad_Category_Name":"I",
-    "Category":7,
-    "Category_Name":"Pegmatite",
-    "Item":11,
-    "Distinct_Rating":7.11,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Pegmatite_11.png"
-  },
-  {
-    "image_id":104,
-    "Broad_Category_Name":"I",
-    "Category":7,
-    "Category_Name":"Pegmatite",
-    "Item":8,
-    "Distinct_Rating":7.03,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Pegmatite_08.png"
-  },
-  {
     "image_id":112,
     "Broad_Category_Name":"I",
     "Category":7,
@@ -1120,28 +570,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"I_Pegmatite_15.png"
-  },
-  {
-    "image_id":103,
-    "Broad_Category_Name":"I",
-    "Category":7,
-    "Category_Name":"Pegmatite",
-    "Item":7,
-    "Distinct_Rating":6.79,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Pegmatite_07.png"
-  },
-  {
-    "image_id":98,
-    "Broad_Category_Name":"I",
-    "Category":7,
-    "Category_Name":"Pegmatite",
-    "Item":2,
-    "Distinct_Rating":6.37,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Pegmatite_02.png"
   },
   {
     "image_id":105,
@@ -1166,28 +594,6 @@
     "image_png":"I_Pegmatite_05.png"
   },
   {
-    "image_id":102,
-    "Broad_Category_Name":"I",
-    "Category":7,
-    "Category_Name":"Pegmatite",
-    "Item":6,
-    "Distinct_Rating":6.01,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Pegmatite_06.png"
-  },
-  {
-    "image_id":97,
-    "Broad_Category_Name":"I",
-    "Category":7,
-    "Category_Name":"Pegmatite",
-    "Item":1,
-    "Distinct_Rating":5.93,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Pegmatite_01.png"
-  },
-  {
     "image_id":108,
     "Broad_Category_Name":"I",
     "Category":7,
@@ -1208,28 +614,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"I_Pegmatite_13.png"
-  },
-  {
-    "image_id":100,
-    "Broad_Category_Name":"I",
-    "Category":7,
-    "Category_Name":"Pegmatite",
-    "Item":4,
-    "Distinct_Rating":5.03,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Pegmatite_04.png"
-  },
-  {
-    "image_id":110,
-    "Broad_Category_Name":"I",
-    "Category":7,
-    "Category_Name":"Pegmatite",
-    "Item":14,
-    "Distinct_Rating":4.79,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Pegmatite_14.png"
   },
   {
     "image_id":125,
@@ -1254,28 +638,6 @@
     "image_png":"I_Peridotite_04.png"
   },
   {
-    "image_id":127,
-    "Broad_Category_Name":"I",
-    "Category":8,
-    "Category_Name":"Peridotite",
-    "Item":15,
-    "Distinct_Rating":6.28,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Peridotite_15.png"
-  },
-  {
-    "image_id":118,
-    "Broad_Category_Name":"I",
-    "Category":8,
-    "Category_Name":"Peridotite",
-    "Item":6,
-    "Distinct_Rating":5.78,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Peridotite_06.png"
-  },
-  {
     "image_id":115,
     "Broad_Category_Name":"I",
     "Category":8,
@@ -1296,28 +658,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"I_Peridotite_09.png"
-  },
-  {
-    "image_id":114,
-    "Broad_Category_Name":"I",
-    "Category":8,
-    "Category_Name":"Peridotite",
-    "Item":2,
-    "Distinct_Rating":5.18,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Peridotite_02.png"
-  },
-  {
-    "image_id":124,
-    "Broad_Category_Name":"I",
-    "Category":8,
-    "Category_Name":"Peridotite",
-    "Item":12,
-    "Distinct_Rating":5.16,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Peridotite_12.png"
   },
   {
     "image_id":120,
@@ -1342,28 +682,6 @@
     "image_png":"I_Peridotite_10.png"
   },
   {
-    "image_id":128,
-    "Broad_Category_Name":"I",
-    "Category":8,
-    "Category_Name":"Peridotite",
-    "Item":16,
-    "Distinct_Rating":4.48,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Peridotite_16.png"
-  },
-  {
-    "image_id":117,
-    "Broad_Category_Name":"I",
-    "Category":8,
-    "Category_Name":"Peridotite",
-    "Item":5,
-    "Distinct_Rating":3.89,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Peridotite_05.png"
-  },
-  {
     "image_id":126,
     "Broad_Category_Name":"I",
     "Category":8,
@@ -1384,28 +702,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"I_Peridotite_11.png"
-  },
-  {
-    "image_id":119,
-    "Broad_Category_Name":"I",
-    "Category":8,
-    "Category_Name":"Peridotite",
-    "Item":7,
-    "Distinct_Rating":3.46,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Peridotite_07.png"
-  },
-  {
-    "image_id":113,
-    "Broad_Category_Name":"I",
-    "Category":8,
-    "Category_Name":"Peridotite",
-    "Item":1,
-    "Distinct_Rating":2.31,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Peridotite_01.png"
   },
   {
     "image_id":137,
@@ -1430,28 +726,6 @@
     "image_png":"I_Pumice_16.png"
   },
   {
-    "image_id":138,
-    "Broad_Category_Name":"I",
-    "Category":9,
-    "Category_Name":"Pumice",
-    "Item":10,
-    "Distinct_Rating":4.58,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Pumice_10.png"
-  },
-  {
-    "image_id":130,
-    "Broad_Category_Name":"I",
-    "Category":9,
-    "Category_Name":"Pumice",
-    "Item":2,
-    "Distinct_Rating":4.41,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Pumice_02.png"
-  },
-  {
     "image_id":143,
     "Broad_Category_Name":"I",
     "Category":9,
@@ -1472,28 +746,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"I_Pumice_06.png"
-  },
-  {
-    "image_id":135,
-    "Broad_Category_Name":"I",
-    "Category":9,
-    "Category_Name":"Pumice",
-    "Item":7,
-    "Distinct_Rating":3.58,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Pumice_07.png"
-  },
-  {
-    "image_id":132,
-    "Broad_Category_Name":"I",
-    "Category":9,
-    "Category_Name":"Pumice",
-    "Item":4,
-    "Distinct_Rating":3.48,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Pumice_04.png"
   },
   {
     "image_id":131,
@@ -1518,28 +770,6 @@
     "image_png":"I_Pumice_05.png"
   },
   {
-    "image_id":129,
-    "Broad_Category_Name":"I",
-    "Category":9,
-    "Category_Name":"Pumice",
-    "Item":1,
-    "Distinct_Rating":3.25,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Pumice_01.png"
-  },
-  {
-    "image_id":142,
-    "Broad_Category_Name":"I",
-    "Category":9,
-    "Category_Name":"Pumice",
-    "Item":14,
-    "Distinct_Rating":3.22,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Pumice_14.png"
-  },
-  {
     "image_id":141,
     "Broad_Category_Name":"I",
     "Category":9,
@@ -1560,28 +790,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"I_Pumice_08.png"
-  },
-  {
-    "image_id":140,
-    "Broad_Category_Name":"I",
-    "Category":9,
-    "Category_Name":"Pumice",
-    "Item":12,
-    "Distinct_Rating":2.97,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Pumice_12.png"
-  },
-  {
-    "image_id":139,
-    "Broad_Category_Name":"I",
-    "Category":9,
-    "Category_Name":"Pumice",
-    "Item":11,
-    "Distinct_Rating":1.74,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Pumice_11.png"
   },
   {
     "image_id":150,
@@ -1606,28 +814,6 @@
     "image_png":"I_Rhyolite_13.png"
   },
   {
-    "image_id":159,
-    "Broad_Category_Name":"I",
-    "Category":10,
-    "Category_Name":"Rhyolite",
-    "Item":15,
-    "Distinct_Rating":4.58,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Rhyolite_15.png"
-  },
-  {
-    "image_id":147,
-    "Broad_Category_Name":"I",
-    "Category":10,
-    "Category_Name":"Rhyolite",
-    "Item":3,
-    "Distinct_Rating":4.55,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Rhyolite_03.png"
-  },
-  {
     "image_id":148,
     "Broad_Category_Name":"I",
     "Category":10,
@@ -1648,28 +834,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"I_Rhyolite_12.png"
-  },
-  {
-    "image_id":153,
-    "Broad_Category_Name":"I",
-    "Category":10,
-    "Category_Name":"Rhyolite",
-    "Item":9,
-    "Distinct_Rating":3.52,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Rhyolite_09.png"
-  },
-  {
-    "image_id":145,
-    "Broad_Category_Name":"I",
-    "Category":10,
-    "Category_Name":"Rhyolite",
-    "Item":1,
-    "Distinct_Rating":3.36,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Rhyolite_01.png"
   },
   {
     "image_id":146,
@@ -1694,28 +858,6 @@
     "image_png":"I_Rhyolite_05.png"
   },
   {
-    "image_id":154,
-    "Broad_Category_Name":"I",
-    "Category":10,
-    "Category_Name":"Rhyolite",
-    "Item":10,
-    "Distinct_Rating":2.88,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Rhyolite_10.png"
-  },
-  {
-    "image_id":151,
-    "Broad_Category_Name":"I",
-    "Category":10,
-    "Category_Name":"Rhyolite",
-    "Item":7,
-    "Distinct_Rating":2.73,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Rhyolite_07.png"
-  },
-  {
     "image_id":158,
     "Broad_Category_Name":"I",
     "Category":10,
@@ -1736,28 +878,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"I_Rhyolite_16.png"
-  },
-  {
-    "image_id":155,
-    "Broad_Category_Name":"I",
-    "Category":10,
-    "Category_Name":"Rhyolite",
-    "Item":11,
-    "Distinct_Rating":1.73,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"I_Rhyolite_11.png"
-  },
-  {
-    "image_id":152,
-    "Broad_Category_Name":"I",
-    "Category":10,
-    "Category_Name":"Rhyolite",
-    "Item":8,
-    "Distinct_Rating":1.38,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"I_Rhyolite_08.png"
   },
   {
     "image_id":163,
@@ -1782,28 +902,6 @@
     "image_png":"M_Amphibolite_12.png"
   },
   {
-    "image_id":171,
-    "Broad_Category_Name":"M",
-    "Category":11,
-    "Category_Name":"Amphibolite",
-    "Item":11,
-    "Distinct_Rating":5.28,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Amphibolite_11.png"
-  },
-  {
-    "image_id":161,
-    "Broad_Category_Name":"M",
-    "Category":11,
-    "Category_Name":"Amphibolite",
-    "Item":1,
-    "Distinct_Rating":5.2,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Amphibolite_01.png"
-  },
-  {
     "image_id":168,
     "Broad_Category_Name":"M",
     "Category":11,
@@ -1824,28 +922,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"M_Amphibolite_09.png"
-  },
-  {
-    "image_id":170,
-    "Broad_Category_Name":"M",
-    "Category":11,
-    "Category_Name":"Amphibolite",
-    "Item":10,
-    "Distinct_Rating":3.83,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Amphibolite_10.png"
-  },
-  {
-    "image_id":167,
-    "Broad_Category_Name":"M",
-    "Category":11,
-    "Category_Name":"Amphibolite",
-    "Item":7,
-    "Distinct_Rating":3.78,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Amphibolite_07.png"
   },
   {
     "image_id":174,
@@ -1870,28 +946,6 @@
     "image_png":"M_Amphibolite_05.png"
   },
   {
-    "image_id":173,
-    "Broad_Category_Name":"M",
-    "Category":11,
-    "Category_Name":"Amphibolite",
-    "Item":13,
-    "Distinct_Rating":3.1,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Amphibolite_13.png"
-  },
-  {
-    "image_id":176,
-    "Broad_Category_Name":"M",
-    "Category":11,
-    "Category_Name":"Amphibolite",
-    "Item":16,
-    "Distinct_Rating":2.97,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Amphibolite_16.png"
-  },
-  {
     "image_id":164,
     "Broad_Category_Name":"M",
     "Category":11,
@@ -1912,28 +966,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"M_Amphibolite_06.png"
-  },
-  {
-    "image_id":162,
-    "Broad_Category_Name":"M",
-    "Category":11,
-    "Category_Name":"Amphibolite",
-    "Item":2,
-    "Distinct_Rating":2.7,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Amphibolite_02.png"
-  },
-  {
-    "image_id":175,
-    "Broad_Category_Name":"M",
-    "Category":11,
-    "Category_Name":"Amphibolite",
-    "Item":15,
-    "Distinct_Rating":2.7,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Amphibolite_15.png"
   },
   {
     "image_id":180,
@@ -1958,28 +990,6 @@
     "image_png":"M_Anthracite_12.png"
   },
   {
-    "image_id":192,
-    "Broad_Category_Name":"M",
-    "Category":12,
-    "Category_Name":"Anthracite",
-    "Item":16,
-    "Distinct_Rating":5.66,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Anthracite_16.png"
-  },
-  {
-    "image_id":179,
-    "Broad_Category_Name":"M",
-    "Category":12,
-    "Category_Name":"Anthracite",
-    "Item":3,
-    "Distinct_Rating":5.43,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Anthracite_03.png"
-  },
-  {
     "image_id":186,
     "Broad_Category_Name":"M",
     "Category":12,
@@ -2000,28 +1010,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"M_Anthracite_13.png"
-  },
-  {
-    "image_id":184,
-    "Broad_Category_Name":"M",
-    "Category":12,
-    "Category_Name":"Anthracite",
-    "Item":8,
-    "Distinct_Rating":4.77,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Anthracite_08.png"
-  },
-  {
-    "image_id":185,
-    "Broad_Category_Name":"M",
-    "Category":12,
-    "Category_Name":"Anthracite",
-    "Item":9,
-    "Distinct_Rating":4.76,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Anthracite_09.png"
   },
   {
     "image_id":181,
@@ -2046,28 +1034,6 @@
     "image_png":"M_Anthracite_15.png"
   },
   {
-    "image_id":178,
-    "Broad_Category_Name":"M",
-    "Category":12,
-    "Category_Name":"Anthracite",
-    "Item":2,
-    "Distinct_Rating":4.43,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Anthracite_02.png"
-  },
-  {
-    "image_id":187,
-    "Broad_Category_Name":"M",
-    "Category":12,
-    "Category_Name":"Anthracite",
-    "Item":11,
-    "Distinct_Rating":4.38,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Anthracite_11.png"
-  },
-  {
     "image_id":190,
     "Broad_Category_Name":"M",
     "Category":12,
@@ -2088,28 +1054,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"M_Anthracite_07.png"
-  },
-  {
-    "image_id":177,
-    "Broad_Category_Name":"M",
-    "Category":12,
-    "Category_Name":"Anthracite",
-    "Item":1,
-    "Distinct_Rating":4.23,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Anthracite_01.png"
-  },
-  {
-    "image_id":182,
-    "Broad_Category_Name":"M",
-    "Category":12,
-    "Category_Name":"Anthracite",
-    "Item":6,
-    "Distinct_Rating":3.36,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Anthracite_06.png"
   },
   {
     "image_id":193,
@@ -2134,28 +1078,6 @@
     "image_png":"M_Gneiss_12.png"
   },
   {
-    "image_id":196,
-    "Broad_Category_Name":"M",
-    "Category":13,
-    "Category_Name":"Gneiss",
-    "Item":4,
-    "Distinct_Rating":3.89,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Gneiss_04.png"
-  },
-  {
-    "image_id":201,
-    "Broad_Category_Name":"M",
-    "Category":13,
-    "Category_Name":"Gneiss",
-    "Item":9,
-    "Distinct_Rating":3.85,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Gneiss_09.png"
-  },
-  {
     "image_id":194,
     "Broad_Category_Name":"M",
     "Category":13,
@@ -2176,28 +1098,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"M_Gneiss_08.png"
-  },
-  {
-    "image_id":203,
-    "Broad_Category_Name":"M",
-    "Category":13,
-    "Category_Name":"Gneiss",
-    "Item":11,
-    "Distinct_Rating":3.66,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Gneiss_11.png"
-  },
-  {
-    "image_id":208,
-    "Broad_Category_Name":"M",
-    "Category":13,
-    "Category_Name":"Gneiss",
-    "Item":16,
-    "Distinct_Rating":3.64,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Gneiss_16.png"
   },
   {
     "image_id":195,
@@ -2222,28 +1122,6 @@
     "image_png":"M_Gneiss_14.png"
   },
   {
-    "image_id":199,
-    "Broad_Category_Name":"M",
-    "Category":13,
-    "Category_Name":"Gneiss",
-    "Item":7,
-    "Distinct_Rating":3.39,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Gneiss_07.png"
-  },
-  {
-    "image_id":205,
-    "Broad_Category_Name":"M",
-    "Category":13,
-    "Category_Name":"Gneiss",
-    "Item":13,
-    "Distinct_Rating":3.26,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Gneiss_13.png"
-  },
-  {
     "image_id":207,
     "Broad_Category_Name":"M",
     "Category":13,
@@ -2264,28 +1142,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"M_Gneiss_10.png"
-  },
-  {
-    "image_id":197,
-    "Broad_Category_Name":"M",
-    "Category":13,
-    "Category_Name":"Gneiss",
-    "Item":5,
-    "Distinct_Rating":2.97,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Gneiss_05.png"
-  },
-  {
-    "image_id":198,
-    "Broad_Category_Name":"M",
-    "Category":13,
-    "Category_Name":"Gneiss",
-    "Item":6,
-    "Distinct_Rating":2.65,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Gneiss_06.png"
   },
   {
     "image_id":221,
@@ -2310,28 +1166,6 @@
     "image_png":"M_Hornfels_05.png"
   },
   {
-    "image_id":209,
-    "Broad_Category_Name":"M",
-    "Category":14,
-    "Category_Name":"Hornfels",
-    "Item":1,
-    "Distinct_Rating":3.04,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Hornfels_01.png"
-  },
-  {
-    "image_id":215,
-    "Broad_Category_Name":"M",
-    "Category":14,
-    "Category_Name":"Hornfels",
-    "Item":7,
-    "Distinct_Rating":2.97,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Hornfels_07.png"
-  },
-  {
     "image_id":216,
     "Broad_Category_Name":"M",
     "Category":14,
@@ -2352,28 +1186,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"M_Hornfels_10.png"
-  },
-  {
-    "image_id":224,
-    "Broad_Category_Name":"M",
-    "Category":14,
-    "Category_Name":"Hornfels",
-    "Item":16,
-    "Distinct_Rating":2.84,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Hornfels_16.png"
-  },
-  {
-    "image_id":217,
-    "Broad_Category_Name":"M",
-    "Category":14,
-    "Category_Name":"Hornfels",
-    "Item":9,
-    "Distinct_Rating":2.7,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Hornfels_09.png"
   },
   {
     "image_id":214,
@@ -2398,28 +1210,6 @@
     "image_png":"M_Hornfels_12.png"
   },
   {
-    "image_id":219,
-    "Broad_Category_Name":"M",
-    "Category":14,
-    "Category_Name":"Hornfels",
-    "Item":11,
-    "Distinct_Rating":2.59,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Hornfels_11.png"
-  },
-  {
-    "image_id":211,
-    "Broad_Category_Name":"M",
-    "Category":14,
-    "Category_Name":"Hornfels",
-    "Item":3,
-    "Distinct_Rating":2.55,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Hornfels_03.png"
-  },
-  {
     "image_id":222,
     "Broad_Category_Name":"M",
     "Category":14,
@@ -2440,28 +1230,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"M_Hornfels_04.png"
-  },
-  {
-    "image_id":210,
-    "Broad_Category_Name":"M",
-    "Category":14,
-    "Category_Name":"Hornfels",
-    "Item":2,
-    "Distinct_Rating":2.0,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Hornfels_02.png"
-  },
-  {
-    "image_id":223,
-    "Broad_Category_Name":"M",
-    "Category":14,
-    "Category_Name":"Hornfels",
-    "Item":15,
-    "Distinct_Rating":1.84,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Hornfels_15.png"
   },
   {
     "image_id":239,
@@ -2486,28 +1254,6 @@
     "image_png":"M_Marble_08.png"
   },
   {
-    "image_id":233,
-    "Broad_Category_Name":"M",
-    "Category":15,
-    "Category_Name":"Marble",
-    "Item":9,
-    "Distinct_Rating":4.25,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Marble_09.png"
-  },
-  {
-    "image_id":234,
-    "Broad_Category_Name":"M",
-    "Category":15,
-    "Category_Name":"Marble",
-    "Item":10,
-    "Distinct_Rating":4.13,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Marble_10.png"
-  },
-  {
     "image_id":225,
     "Broad_Category_Name":"M",
     "Category":15,
@@ -2528,28 +1274,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"M_Marble_05.png"
-  },
-  {
-    "image_id":236,
-    "Broad_Category_Name":"M",
-    "Category":15,
-    "Category_Name":"Marble",
-    "Item":12,
-    "Distinct_Rating":3.95,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Marble_12.png"
-  },
-  {
-    "image_id":235,
-    "Broad_Category_Name":"M",
-    "Category":15,
-    "Category_Name":"Marble",
-    "Item":11,
-    "Distinct_Rating":3.81,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Marble_11.png"
   },
   {
     "image_id":237,
@@ -2574,28 +1298,6 @@
     "image_png":"M_Marble_07.png"
   },
   {
-    "image_id":230,
-    "Broad_Category_Name":"M",
-    "Category":15,
-    "Category_Name":"Marble",
-    "Item":6,
-    "Distinct_Rating":3.4,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Marble_06.png"
-  },
-  {
-    "image_id":238,
-    "Broad_Category_Name":"M",
-    "Category":15,
-    "Category_Name":"Marble",
-    "Item":14,
-    "Distinct_Rating":3.31,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Marble_14.png"
-  },
-  {
     "image_id":226,
     "Broad_Category_Name":"M",
     "Category":15,
@@ -2616,28 +1318,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"M_Marble_04.png"
-  },
-  {
-    "image_id":227,
-    "Broad_Category_Name":"M",
-    "Category":15,
-    "Category_Name":"Marble",
-    "Item":3,
-    "Distinct_Rating":2.67,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Marble_03.png"
-  },
-  {
-    "image_id":240,
-    "Broad_Category_Name":"M",
-    "Category":15,
-    "Category_Name":"Marble",
-    "Item":16,
-    "Distinct_Rating":2.57,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Marble_16.png"
   },
   {
     "image_id":255,
@@ -2662,28 +1342,6 @@
     "image_png":"M_Migmatite_04.png"
   },
   {
-    "image_id":253,
-    "Broad_Category_Name":"M",
-    "Category":16,
-    "Category_Name":"Migmatite",
-    "Item":13,
-    "Distinct_Rating":5.01,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Migmatite_13.png"
-  },
-  {
-    "image_id":241,
-    "Broad_Category_Name":"M",
-    "Category":16,
-    "Category_Name":"Migmatite",
-    "Item":1,
-    "Distinct_Rating":4.9,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Migmatite_01.png"
-  },
-  {
     "image_id":246,
     "Broad_Category_Name":"M",
     "Category":16,
@@ -2704,28 +1362,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"M_Migmatite_14.png"
-  },
-  {
-    "image_id":247,
-    "Broad_Category_Name":"M",
-    "Category":16,
-    "Category_Name":"Migmatite",
-    "Item":7,
-    "Distinct_Rating":4.38,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Migmatite_07.png"
-  },
-  {
-    "image_id":251,
-    "Broad_Category_Name":"M",
-    "Category":16,
-    "Category_Name":"Migmatite",
-    "Item":11,
-    "Distinct_Rating":4.36,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Migmatite_11.png"
   },
   {
     "image_id":245,
@@ -2750,28 +1386,6 @@
     "image_png":"M_Migmatite_12.png"
   },
   {
-    "image_id":242,
-    "Broad_Category_Name":"M",
-    "Category":16,
-    "Category_Name":"Migmatite",
-    "Item":2,
-    "Distinct_Rating":3.98,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Migmatite_02.png"
-  },
-  {
-    "image_id":256,
-    "Broad_Category_Name":"M",
-    "Category":16,
-    "Category_Name":"Migmatite",
-    "Item":16,
-    "Distinct_Rating":3.86,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Migmatite_16.png"
-  },
-  {
     "image_id":249,
     "Broad_Category_Name":"M",
     "Category":16,
@@ -2792,28 +1406,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"M_Migmatite_03.png"
-  },
-  {
-    "image_id":250,
-    "Broad_Category_Name":"M",
-    "Category":16,
-    "Category_Name":"Migmatite",
-    "Item":10,
-    "Distinct_Rating":3.3,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Migmatite_10.png"
-  },
-  {
-    "image_id":248,
-    "Broad_Category_Name":"M",
-    "Category":16,
-    "Category_Name":"Migmatite",
-    "Item":8,
-    "Distinct_Rating":2.79,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Migmatite_08.png"
   },
   {
     "image_id":257,
@@ -2838,28 +1430,6 @@
     "image_png":"M_Phyllite_04.png"
   },
   {
-    "image_id":264,
-    "Broad_Category_Name":"M",
-    "Category":17,
-    "Category_Name":"Phyllite",
-    "Item":8,
-    "Distinct_Rating":4.33,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Phyllite_08.png"
-  },
-  {
-    "image_id":270,
-    "Broad_Category_Name":"M",
-    "Category":17,
-    "Category_Name":"Phyllite",
-    "Item":14,
-    "Distinct_Rating":4.08,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Phyllite_14.png"
-  },
-  {
     "image_id":268,
     "Broad_Category_Name":"M",
     "Category":17,
@@ -2880,28 +1450,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"M_Phyllite_11.png"
-  },
-  {
-    "image_id":272,
-    "Broad_Category_Name":"M",
-    "Category":17,
-    "Category_Name":"Phyllite",
-    "Item":16,
-    "Distinct_Rating":3.06,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Phyllite_16.png"
-  },
-  {
-    "image_id":271,
-    "Broad_Category_Name":"M",
-    "Category":17,
-    "Category_Name":"Phyllite",
-    "Item":15,
-    "Distinct_Rating":3.05,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Phyllite_15.png"
   },
   {
     "image_id":262,
@@ -2926,28 +1474,6 @@
     "image_png":"M_Phyllite_09.png"
   },
   {
-    "image_id":258,
-    "Broad_Category_Name":"M",
-    "Category":17,
-    "Category_Name":"Phyllite",
-    "Item":2,
-    "Distinct_Rating":2.89,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Phyllite_02.png"
-  },
-  {
-    "image_id":269,
-    "Broad_Category_Name":"M",
-    "Category":17,
-    "Category_Name":"Phyllite",
-    "Item":13,
-    "Distinct_Rating":2.8,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Phyllite_13.png"
-  },
-  {
     "image_id":266,
     "Broad_Category_Name":"M",
     "Category":17,
@@ -2968,28 +1494,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"M_Phyllite_07.png"
-  },
-  {
-    "image_id":259,
-    "Broad_Category_Name":"M",
-    "Category":17,
-    "Category_Name":"Phyllite",
-    "Item":3,
-    "Distinct_Rating":2.5,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Phyllite_03.png"
-  },
-  {
-    "image_id":261,
-    "Broad_Category_Name":"M",
-    "Category":17,
-    "Category_Name":"Phyllite",
-    "Item":5,
-    "Distinct_Rating":2.14,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Phyllite_05.png"
   },
   {
     "image_id":282,
@@ -3014,28 +1518,6 @@
     "image_png":"M_Quartzite_06.png"
   },
   {
-    "image_id":275,
-    "Broad_Category_Name":"M",
-    "Category":18,
-    "Category_Name":"Quartzite",
-    "Item":3,
-    "Distinct_Rating":3.6,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Quartzite_03.png"
-  },
-  {
-    "image_id":288,
-    "Broad_Category_Name":"M",
-    "Category":18,
-    "Category_Name":"Quartzite",
-    "Item":16,
-    "Distinct_Rating":3.41,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Quartzite_16.png"
-  },
-  {
     "image_id":286,
     "Broad_Category_Name":"M",
     "Category":18,
@@ -3056,28 +1538,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"M_Quartzite_04.png"
-  },
-  {
-    "image_id":283,
-    "Broad_Category_Name":"M",
-    "Category":18,
-    "Category_Name":"Quartzite",
-    "Item":11,
-    "Distinct_Rating":2.89,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Quartzite_11.png"
-  },
-  {
-    "image_id":281,
-    "Broad_Category_Name":"M",
-    "Category":18,
-    "Category_Name":"Quartzite",
-    "Item":9,
-    "Distinct_Rating":2.62,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Quartzite_09.png"
   },
   {
     "image_id":274,
@@ -3102,28 +1562,6 @@
     "image_png":"M_Quartzite_01.png"
   },
   {
-    "image_id":285,
-    "Broad_Category_Name":"M",
-    "Category":18,
-    "Category_Name":"Quartzite",
-    "Item":13,
-    "Distinct_Rating":2.27,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Quartzite_13.png"
-  },
-  {
-    "image_id":277,
-    "Broad_Category_Name":"M",
-    "Category":18,
-    "Category_Name":"Quartzite",
-    "Item":5,
-    "Distinct_Rating":2.23,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Quartzite_05.png"
-  },
-  {
     "image_id":287,
     "Broad_Category_Name":"M",
     "Category":18,
@@ -3144,28 +1582,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"M_Quartzite_08.png"
-  },
-  {
-    "image_id":279,
-    "Broad_Category_Name":"M",
-    "Category":18,
-    "Category_Name":"Quartzite",
-    "Item":7,
-    "Distinct_Rating":1.97,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Quartzite_07.png"
-  },
-  {
-    "image_id":284,
-    "Broad_Category_Name":"M",
-    "Category":18,
-    "Category_Name":"Quartzite",
-    "Item":12,
-    "Distinct_Rating":1.92,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Quartzite_12.png"
   },
   {
     "image_id":296,
@@ -3190,28 +1606,6 @@
     "image_png":"M_Schist_11.png"
   },
   {
-    "image_id":294,
-    "Broad_Category_Name":"M",
-    "Category":19,
-    "Category_Name":"Schist",
-    "Item":6,
-    "Distinct_Rating":4.98,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Schist_06.png"
-  },
-  {
-    "image_id":304,
-    "Broad_Category_Name":"M",
-    "Category":19,
-    "Category_Name":"Schist",
-    "Item":16,
-    "Distinct_Rating":4.97,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Schist_16.png"
-  },
-  {
     "image_id":300,
     "Broad_Category_Name":"M",
     "Category":19,
@@ -3232,28 +1626,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"M_Schist_07.png"
-  },
-  {
-    "image_id":302,
-    "Broad_Category_Name":"M",
-    "Category":19,
-    "Category_Name":"Schist",
-    "Item":14,
-    "Distinct_Rating":4.12,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Schist_14.png"
-  },
-  {
-    "image_id":291,
-    "Broad_Category_Name":"M",
-    "Category":19,
-    "Category_Name":"Schist",
-    "Item":3,
-    "Distinct_Rating":4.03,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Schist_03.png"
   },
   {
     "image_id":293,
@@ -3278,28 +1650,6 @@
     "image_png":"M_Schist_04.png"
   },
   {
-    "image_id":298,
-    "Broad_Category_Name":"M",
-    "Category":19,
-    "Category_Name":"Schist",
-    "Item":10,
-    "Distinct_Rating":3.42,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Schist_10.png"
-  },
-  {
-    "image_id":290,
-    "Broad_Category_Name":"M",
-    "Category":19,
-    "Category_Name":"Schist",
-    "Item":2,
-    "Distinct_Rating":3.37,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Schist_02.png"
-  },
-  {
     "image_id":301,
     "Broad_Category_Name":"M",
     "Category":19,
@@ -3320,28 +1670,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"M_Schist_09.png"
-  },
-  {
-    "image_id":303,
-    "Broad_Category_Name":"M",
-    "Category":19,
-    "Category_Name":"Schist",
-    "Item":15,
-    "Distinct_Rating":3.26,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Schist_15.png"
-  },
-  {
-    "image_id":289,
-    "Broad_Category_Name":"M",
-    "Category":19,
-    "Category_Name":"Schist",
-    "Item":1,
-    "Distinct_Rating":2.56,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Schist_01.png"
   },
   {
     "image_id":313,
@@ -3366,28 +1694,6 @@
     "image_png":"M_Slate_07.png"
   },
   {
-    "image_id":316,
-    "Broad_Category_Name":"M",
-    "Category":20,
-    "Category_Name":"Slate",
-    "Item":12,
-    "Distinct_Rating":3.25,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Slate_12.png"
-  },
-  {
-    "image_id":305,
-    "Broad_Category_Name":"M",
-    "Category":20,
-    "Category_Name":"Slate",
-    "Item":1,
-    "Distinct_Rating":2.89,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Slate_01.png"
-  },
-  {
     "image_id":306,
     "Broad_Category_Name":"M",
     "Category":20,
@@ -3408,28 +1714,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"M_Slate_06.png"
-  },
-  {
-    "image_id":315,
-    "Broad_Category_Name":"M",
-    "Category":20,
-    "Category_Name":"Slate",
-    "Item":11,
-    "Distinct_Rating":2.75,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Slate_11.png"
-  },
-  {
-    "image_id":309,
-    "Broad_Category_Name":"M",
-    "Category":20,
-    "Category_Name":"Slate",
-    "Item":5,
-    "Distinct_Rating":2.63,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Slate_05.png"
   },
   {
     "image_id":318,
@@ -3454,28 +1738,6 @@
     "image_png":"M_Slate_16.png"
   },
   {
-    "image_id":317,
-    "Broad_Category_Name":"M",
-    "Category":20,
-    "Category_Name":"Slate",
-    "Item":13,
-    "Distinct_Rating":2.45,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Slate_13.png"
-  },
-  {
-    "image_id":308,
-    "Broad_Category_Name":"M",
-    "Category":20,
-    "Category_Name":"Slate",
-    "Item":4,
-    "Distinct_Rating":2.2,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Slate_04.png"
-  },
-  {
     "image_id":319,
     "Broad_Category_Name":"M",
     "Category":20,
@@ -3496,28 +1758,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"M_Slate_10.png"
-  },
-  {
-    "image_id":312,
-    "Broad_Category_Name":"M",
-    "Category":20,
-    "Category_Name":"Slate",
-    "Item":8,
-    "Distinct_Rating":1.9,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"M_Slate_08.png"
-  },
-  {
-    "image_id":307,
-    "Broad_Category_Name":"M",
-    "Category":20,
-    "Category_Name":"Slate",
-    "Item":3,
-    "Distinct_Rating":1.87,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"M_Slate_03.png"
   },
   {
     "image_id":333,
@@ -3542,28 +1782,6 @@
     "image_png":"S_Bituminous Coal_04.png"
   },
   {
-    "image_id":322,
-    "Broad_Category_Name":"S",
-    "Category":21,
-    "Category_Name":"Bituminous Coal",
-    "Item":2,
-    "Distinct_Rating":4.82,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Bituminous Coal_02.png"
-  },
-  {
-    "image_id":329,
-    "Broad_Category_Name":"S",
-    "Category":21,
-    "Category_Name":"Bituminous Coal",
-    "Item":9,
-    "Distinct_Rating":4.68,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Bituminous Coal_09.png"
-  },
-  {
     "image_id":334,
     "Broad_Category_Name":"S",
     "Category":21,
@@ -3584,28 +1802,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"S_Bituminous Coal_16.png"
-  },
-  {
-    "image_id":323,
-    "Broad_Category_Name":"S",
-    "Category":21,
-    "Category_Name":"Bituminous Coal",
-    "Item":3,
-    "Distinct_Rating":4.2,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Bituminous Coal_03.png"
-  },
-  {
-    "image_id":321,
-    "Broad_Category_Name":"S",
-    "Category":21,
-    "Category_Name":"Bituminous Coal",
-    "Item":1,
-    "Distinct_Rating":4.17,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Bituminous Coal_01.png"
   },
   {
     "image_id":328,
@@ -3630,28 +1826,6 @@
     "image_png":"S_Bituminous Coal_11.png"
   },
   {
-    "image_id":325,
-    "Broad_Category_Name":"S",
-    "Category":21,
-    "Category_Name":"Bituminous Coal",
-    "Item":5,
-    "Distinct_Rating":3.63,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Bituminous Coal_05.png"
-  },
-  {
-    "image_id":332,
-    "Broad_Category_Name":"S",
-    "Category":21,
-    "Category_Name":"Bituminous Coal",
-    "Item":12,
-    "Distinct_Rating":3.5,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Bituminous Coal_12.png"
-  },
-  {
     "image_id":330,
     "Broad_Category_Name":"S",
     "Category":21,
@@ -3672,28 +1846,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"S_Bituminous Coal_06.png"
-  },
-  {
-    "image_id":335,
-    "Broad_Category_Name":"S",
-    "Category":21,
-    "Category_Name":"Bituminous Coal",
-    "Item":15,
-    "Distinct_Rating":3.21,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Bituminous Coal_15.png"
-  },
-  {
-    "image_id":327,
-    "Broad_Category_Name":"S",
-    "Category":21,
-    "Category_Name":"Bituminous Coal",
-    "Item":7,
-    "Distinct_Rating":3.0,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Bituminous Coal_07.png"
   },
   {
     "image_id":337,
@@ -3718,28 +1870,6 @@
     "image_png":"S_Breccia_08.png"
   },
   {
-    "image_id":345,
-    "Broad_Category_Name":"S",
-    "Category":22,
-    "Category_Name":"Breccia",
-    "Item":9,
-    "Distinct_Rating":6.7,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Breccia_09.png"
-  },
-  {
-    "image_id":347,
-    "Broad_Category_Name":"S",
-    "Category":22,
-    "Category_Name":"Breccia",
-    "Item":11,
-    "Distinct_Rating":6.7,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Breccia_11.png"
-  },
-  {
     "image_id":341,
     "Broad_Category_Name":"S",
     "Category":22,
@@ -3760,28 +1890,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"S_Breccia_07.png"
-  },
-  {
-    "image_id":338,
-    "Broad_Category_Name":"S",
-    "Category":22,
-    "Category_Name":"Breccia",
-    "Item":2,
-    "Distinct_Rating":5.94,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Breccia_02.png"
-  },
-  {
-    "image_id":352,
-    "Broad_Category_Name":"S",
-    "Category":22,
-    "Category_Name":"Breccia",
-    "Item":16,
-    "Distinct_Rating":5.94,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Breccia_16.png"
   },
   {
     "image_id":349,
@@ -3806,28 +1914,6 @@
     "image_png":"S_Breccia_15.png"
   },
   {
-    "image_id":342,
-    "Broad_Category_Name":"S",
-    "Category":22,
-    "Category_Name":"Breccia",
-    "Item":6,
-    "Distinct_Rating":5.23,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Breccia_06.png"
-  },
-  {
-    "image_id":340,
-    "Broad_Category_Name":"S",
-    "Category":22,
-    "Category_Name":"Breccia",
-    "Item":4,
-    "Distinct_Rating":5.13,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Breccia_04.png"
-  },
-  {
     "image_id":339,
     "Broad_Category_Name":"S",
     "Category":22,
@@ -3848,28 +1934,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"S_Breccia_12.png"
-  },
-  {
-    "image_id":346,
-    "Broad_Category_Name":"S",
-    "Category":22,
-    "Category_Name":"Breccia",
-    "Item":10,
-    "Distinct_Rating":5.0,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Breccia_10.png"
-  },
-  {
-    "image_id":350,
-    "Broad_Category_Name":"S",
-    "Category":22,
-    "Category_Name":"Breccia",
-    "Item":14,
-    "Distinct_Rating":4.6,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Breccia_14.png"
   },
   {
     "image_id":362,
@@ -3894,28 +1958,6 @@
     "image_png":"S_Chert_11.png"
   },
   {
-    "image_id":365,
-    "Broad_Category_Name":"S",
-    "Category":23,
-    "Category_Name":"Chert",
-    "Item":13,
-    "Distinct_Rating":6.57,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Chert_13.png"
-  },
-  {
-    "image_id":360,
-    "Broad_Category_Name":"S",
-    "Category":23,
-    "Category_Name":"Chert",
-    "Item":8,
-    "Distinct_Rating":5.52,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Chert_08.png"
-  },
-  {
     "image_id":368,
     "Broad_Category_Name":"S",
     "Category":23,
@@ -3936,28 +1978,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"S_Chert_03.png"
-  },
-  {
-    "image_id":353,
-    "Broad_Category_Name":"S",
-    "Category":23,
-    "Category_Name":"Chert",
-    "Item":1,
-    "Distinct_Rating":5.21,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Chert_01.png"
-  },
-  {
-    "image_id":357,
-    "Broad_Category_Name":"S",
-    "Category":23,
-    "Category_Name":"Chert",
-    "Item":5,
-    "Distinct_Rating":5.12,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Chert_05.png"
   },
   {
     "image_id":361,
@@ -3982,28 +2002,6 @@
     "image_png":"S_Chert_14.png"
   },
   {
-    "image_id":358,
-    "Broad_Category_Name":"S",
-    "Category":23,
-    "Category_Name":"Chert",
-    "Item":6,
-    "Distinct_Rating":4.22,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Chert_06.png"
-  },
-  {
-    "image_id":367,
-    "Broad_Category_Name":"S",
-    "Category":23,
-    "Category_Name":"Chert",
-    "Item":15,
-    "Distinct_Rating":4.11,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Chert_15.png"
-  },
-  {
     "image_id":364,
     "Broad_Category_Name":"S",
     "Category":23,
@@ -4024,28 +2022,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"S_Chert_02.png"
-  },
-  {
-    "image_id":356,
-    "Broad_Category_Name":"S",
-    "Category":23,
-    "Category_Name":"Chert",
-    "Item":4,
-    "Distinct_Rating":2.74,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Chert_04.png"
-  },
-  {
-    "image_id":359,
-    "Broad_Category_Name":"S",
-    "Category":23,
-    "Category_Name":"Chert",
-    "Item":7,
-    "Distinct_Rating":2.65,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Chert_07.png"
   },
   {
     "image_id":373,
@@ -4070,28 +2046,6 @@
     "image_png":"S_Conglomerate_07.png"
   },
   {
-    "image_id":382,
-    "Broad_Category_Name":"S",
-    "Category":24,
-    "Category_Name":"Conglomerate",
-    "Item":14,
-    "Distinct_Rating":6.86,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Conglomerate_14.png"
-  },
-  {
-    "image_id":383,
-    "Broad_Category_Name":"S",
-    "Category":24,
-    "Category_Name":"Conglomerate",
-    "Item":15,
-    "Distinct_Rating":6.71,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Conglomerate_15.png"
-  },
-  {
     "image_id":381,
     "Broad_Category_Name":"S",
     "Category":24,
@@ -4112,28 +2066,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"S_Conglomerate_16.png"
-  },
-  {
-    "image_id":369,
-    "Broad_Category_Name":"S",
-    "Category":24,
-    "Category_Name":"Conglomerate",
-    "Item":1,
-    "Distinct_Rating":6.23,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Conglomerate_01.png"
-  },
-  {
-    "image_id":379,
-    "Broad_Category_Name":"S",
-    "Category":24,
-    "Category_Name":"Conglomerate",
-    "Item":11,
-    "Distinct_Rating":5.97,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Conglomerate_11.png"
   },
   {
     "image_id":372,
@@ -4158,28 +2090,6 @@
     "image_png":"S_Conglomerate_10.png"
   },
   {
-    "image_id":377,
-    "Broad_Category_Name":"S",
-    "Category":24,
-    "Category_Name":"Conglomerate",
-    "Item":9,
-    "Distinct_Rating":5.21,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Conglomerate_09.png"
-  },
-  {
-    "image_id":370,
-    "Broad_Category_Name":"S",
-    "Category":24,
-    "Category_Name":"Conglomerate",
-    "Item":2,
-    "Distinct_Rating":5.13,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Conglomerate_02.png"
-  },
-  {
     "image_id":376,
     "Broad_Category_Name":"S",
     "Category":24,
@@ -4200,28 +2110,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"S_Conglomerate_03.png"
-  },
-  {
-    "image_id":374,
-    "Broad_Category_Name":"S",
-    "Category":24,
-    "Category_Name":"Conglomerate",
-    "Item":6,
-    "Distinct_Rating":4.24,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Conglomerate_06.png"
-  },
-  {
-    "image_id":380,
-    "Broad_Category_Name":"S",
-    "Category":24,
-    "Category_Name":"Conglomerate",
-    "Item":12,
-    "Distinct_Rating":3.05,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Conglomerate_12.png"
   },
   {
     "image_id":395,
@@ -4246,28 +2134,6 @@
     "image_png":"S_Dolomite_02.png"
   },
   {
-    "image_id":389,
-    "Broad_Category_Name":"S",
-    "Category":25,
-    "Category_Name":"Dolomite",
-    "Item":5,
-    "Distinct_Rating":3.84,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Dolomite_05.png"
-  },
-  {
-    "image_id":392,
-    "Broad_Category_Name":"S",
-    "Category":25,
-    "Category_Name":"Dolomite",
-    "Item":8,
-    "Distinct_Rating":3.66,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Dolomite_08.png"
-  },
-  {
     "image_id":394,
     "Broad_Category_Name":"S",
     "Category":25,
@@ -4288,28 +2154,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"S_Dolomite_03.png"
-  },
-  {
-    "image_id":390,
-    "Broad_Category_Name":"S",
-    "Category":25,
-    "Category_Name":"Dolomite",
-    "Item":6,
-    "Distinct_Rating":2.51,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Dolomite_06.png"
-  },
-  {
-    "image_id":399,
-    "Broad_Category_Name":"S",
-    "Category":25,
-    "Category_Name":"Dolomite",
-    "Item":15,
-    "Distinct_Rating":2.16,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Dolomite_15.png"
   },
   {
     "image_id":393,
@@ -4334,28 +2178,6 @@
     "image_png":"S_Dolomite_04.png"
   },
   {
-    "image_id":396,
-    "Broad_Category_Name":"S",
-    "Category":25,
-    "Category_Name":"Dolomite",
-    "Item":12,
-    "Distinct_Rating":1.85,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Dolomite_12.png"
-  },
-  {
-    "image_id":397,
-    "Broad_Category_Name":"S",
-    "Category":25,
-    "Category_Name":"Dolomite",
-    "Item":13,
-    "Distinct_Rating":1.77,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Dolomite_13.png"
-  },
-  {
     "image_id":391,
     "Broad_Category_Name":"S",
     "Category":25,
@@ -4376,28 +2198,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"S_Dolomite_16.png"
-  },
-  {
-    "image_id":385,
-    "Broad_Category_Name":"S",
-    "Category":25,
-    "Category_Name":"Dolomite",
-    "Item":1,
-    "Distinct_Rating":1.43,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Dolomite_01.png"
-  },
-  {
-    "image_id":398,
-    "Broad_Category_Name":"S",
-    "Category":25,
-    "Category_Name":"Dolomite",
-    "Item":14,
-    "Distinct_Rating":1.43,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Dolomite_14.png"
   },
   {
     "image_id":405,
@@ -4422,28 +2222,6 @@
     "image_png":"S_Micrite_03.png"
   },
   {
-    "image_id":404,
-    "Broad_Category_Name":"S",
-    "Category":26,
-    "Category_Name":"Micrite",
-    "Item":4,
-    "Distinct_Rating":3.76,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Micrite_04.png"
-  },
-  {
-    "image_id":408,
-    "Broad_Category_Name":"S",
-    "Category":26,
-    "Category_Name":"Micrite",
-    "Item":8,
-    "Distinct_Rating":3.71,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Micrite_08.png"
-  },
-  {
     "image_id":412,
     "Broad_Category_Name":"S",
     "Category":26,
@@ -4464,28 +2242,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"S_Micrite_01.png"
-  },
-  {
-    "image_id":402,
-    "Broad_Category_Name":"S",
-    "Category":26,
-    "Category_Name":"Micrite",
-    "Item":2,
-    "Distinct_Rating":2.77,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Micrite_02.png"
-  },
-  {
-    "image_id":409,
-    "Broad_Category_Name":"S",
-    "Category":26,
-    "Category_Name":"Micrite",
-    "Item":9,
-    "Distinct_Rating":2.7,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Micrite_09.png"
   },
   {
     "image_id":414,
@@ -4510,28 +2266,6 @@
     "image_png":"S_Micrite_15.png"
   },
   {
-    "image_id":416,
-    "Broad_Category_Name":"S",
-    "Category":26,
-    "Category_Name":"Micrite",
-    "Item":16,
-    "Distinct_Rating":2.21,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Micrite_16.png"
-  },
-  {
-    "image_id":413,
-    "Broad_Category_Name":"S",
-    "Category":26,
-    "Category_Name":"Micrite",
-    "Item":13,
-    "Distinct_Rating":2.16,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Micrite_13.png"
-  },
-  {
     "image_id":411,
     "Broad_Category_Name":"S",
     "Category":26,
@@ -4552,28 +2286,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"S_Micrite_07.png"
-  },
-  {
-    "image_id":406,
-    "Broad_Category_Name":"S",
-    "Category":26,
-    "Category_Name":"Micrite",
-    "Item":6,
-    "Distinct_Rating":1.8,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Micrite_06.png"
-  },
-  {
-    "image_id":410,
-    "Broad_Category_Name":"S",
-    "Category":26,
-    "Category_Name":"Micrite",
-    "Item":10,
-    "Distinct_Rating":1.68,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Micrite_10.png"
   },
   {
     "image_id":420,
@@ -4598,28 +2310,6 @@
     "image_png":"S_Rock Gypsum_14.png"
   },
   {
-    "image_id":428,
-    "Broad_Category_Name":"S",
-    "Category":27,
-    "Category_Name":"Rock Gypsum",
-    "Item":12,
-    "Distinct_Rating":6.22,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Rock Gypsum_12.png"
-  },
-  {
-    "image_id":431,
-    "Broad_Category_Name":"S",
-    "Category":27,
-    "Category_Name":"Rock Gypsum",
-    "Item":15,
-    "Distinct_Rating":6.11,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Rock Gypsum_15.png"
-  },
-  {
     "image_id":425,
     "Broad_Category_Name":"S",
     "Category":27,
@@ -4640,28 +2330,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"S_Rock Gypsum_08.png"
-  },
-  {
-    "image_id":432,
-    "Broad_Category_Name":"S",
-    "Category":27,
-    "Category_Name":"Rock Gypsum",
-    "Item":16,
-    "Distinct_Rating":5.49,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Rock Gypsum_16.png"
-  },
-  {
-    "image_id":418,
-    "Broad_Category_Name":"S",
-    "Category":27,
-    "Category_Name":"Rock Gypsum",
-    "Item":2,
-    "Distinct_Rating":5.19,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Rock Gypsum_02.png"
   },
   {
     "image_id":429,
@@ -4686,28 +2354,6 @@
     "image_png":"S_Rock Gypsum_11.png"
   },
   {
-    "image_id":426,
-    "Broad_Category_Name":"S",
-    "Category":27,
-    "Category_Name":"Rock Gypsum",
-    "Item":10,
-    "Distinct_Rating":4.72,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Rock Gypsum_10.png"
-  },
-  {
-    "image_id":419,
-    "Broad_Category_Name":"S",
-    "Category":27,
-    "Category_Name":"Rock Gypsum",
-    "Item":3,
-    "Distinct_Rating":4.18,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Rock Gypsum_03.png"
-  },
-  {
     "image_id":417,
     "Broad_Category_Name":"S",
     "Category":27,
@@ -4728,28 +2374,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"S_Rock Gypsum_05.png"
-  },
-  {
-    "image_id":423,
-    "Broad_Category_Name":"S",
-    "Category":27,
-    "Category_Name":"Rock Gypsum",
-    "Item":7,
-    "Distinct_Rating":2.64,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Rock Gypsum_07.png"
-  },
-  {
-    "image_id":422,
-    "Broad_Category_Name":"S",
-    "Category":27,
-    "Category_Name":"Rock Gypsum",
-    "Item":6,
-    "Distinct_Rating":2.61,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Rock Gypsum_06.png"
   },
   {
     "image_id":436,
@@ -4774,28 +2398,6 @@
     "image_png":"S_Rock Salt_15.png"
   },
   {
-    "image_id":445,
-    "Broad_Category_Name":"S",
-    "Category":28,
-    "Category_Name":"Rock Salt",
-    "Item":13,
-    "Distinct_Rating":7.58,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Rock Salt_13.png"
-  },
-  {
-    "image_id":446,
-    "Broad_Category_Name":"S",
-    "Category":28,
-    "Category_Name":"Rock Salt",
-    "Item":14,
-    "Distinct_Rating":7.57,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Rock Salt_14.png"
-  },
-  {
     "image_id":433,
     "Broad_Category_Name":"S",
     "Category":28,
@@ -4816,28 +2418,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"S_Rock Salt_09.png"
-  },
-  {
-    "image_id":439,
-    "Broad_Category_Name":"S",
-    "Category":28,
-    "Category_Name":"Rock Salt",
-    "Item":7,
-    "Distinct_Rating":6.66,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Rock Salt_07.png"
-  },
-  {
-    "image_id":440,
-    "Broad_Category_Name":"S",
-    "Category":28,
-    "Category_Name":"Rock Salt",
-    "Item":8,
-    "Distinct_Rating":6.26,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Rock Salt_08.png"
   },
   {
     "image_id":448,
@@ -4862,28 +2442,6 @@
     "image_png":"S_Rock Salt_12.png"
   },
   {
-    "image_id":438,
-    "Broad_Category_Name":"S",
-    "Category":28,
-    "Category_Name":"Rock Salt",
-    "Item":6,
-    "Distinct_Rating":5.53,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Rock Salt_06.png"
-  },
-  {
-    "image_id":437,
-    "Broad_Category_Name":"S",
-    "Category":28,
-    "Category_Name":"Rock Salt",
-    "Item":5,
-    "Distinct_Rating":5.16,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Rock Salt_05.png"
-  },
-  {
     "image_id":434,
     "Broad_Category_Name":"S",
     "Category":28,
@@ -4904,28 +2462,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"S_Rock Salt_11.png"
-  },
-  {
-    "image_id":435,
-    "Broad_Category_Name":"S",
-    "Category":28,
-    "Category_Name":"Rock Salt",
-    "Item":3,
-    "Distinct_Rating":4.83,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Rock Salt_03.png"
-  },
-  {
-    "image_id":442,
-    "Broad_Category_Name":"S",
-    "Category":28,
-    "Category_Name":"Rock Salt",
-    "Item":10,
-    "Distinct_Rating":4.0,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Rock Salt_10.png"
   },
   {
     "image_id":453,
@@ -4950,28 +2486,6 @@
     "image_png":"S_Sandstone_07.png"
   },
   {
-    "image_id":449,
-    "Broad_Category_Name":"S",
-    "Category":29,
-    "Category_Name":"Sandstone",
-    "Item":1,
-    "Distinct_Rating":4.78,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Sandstone_01.png"
-  },
-  {
-    "image_id":454,
-    "Broad_Category_Name":"S",
-    "Category":29,
-    "Category_Name":"Sandstone",
-    "Item":6,
-    "Distinct_Rating":3.7,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Sandstone_06.png"
-  },
-  {
     "image_id":457,
     "Broad_Category_Name":"S",
     "Category":29,
@@ -4992,28 +2506,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"S_Sandstone_13.png"
-  },
-  {
-    "image_id":460,
-    "Broad_Category_Name":"S",
-    "Category":29,
-    "Category_Name":"Sandstone",
-    "Item":12,
-    "Distinct_Rating":2.68,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Sandstone_12.png"
-  },
-  {
-    "image_id":462,
-    "Broad_Category_Name":"S",
-    "Category":29,
-    "Category_Name":"Sandstone",
-    "Item":14,
-    "Distinct_Rating":2.57,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Sandstone_14.png"
   },
   {
     "image_id":450,
@@ -5038,28 +2530,6 @@
     "image_png":"S_Sandstone_10.png"
   },
   {
-    "image_id":463,
-    "Broad_Category_Name":"S",
-    "Category":29,
-    "Category_Name":"Sandstone",
-    "Item":15,
-    "Distinct_Rating":2.0,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Sandstone_15.png"
-  },
-  {
-    "image_id":464,
-    "Broad_Category_Name":"S",
-    "Category":29,
-    "Category_Name":"Sandstone",
-    "Item":16,
-    "Distinct_Rating":1.93,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Sandstone_16.png"
-  },
-  {
     "image_id":451,
     "Broad_Category_Name":"S",
     "Category":29,
@@ -5080,28 +2550,6 @@
     "Group1":"Foil",
     "Group2":"Target",
     "image_png":"S_Sandstone_11.png"
-  },
-  {
-    "image_id":452,
-    "Broad_Category_Name":"S",
-    "Category":29,
-    "Category_Name":"Sandstone",
-    "Item":4,
-    "Distinct_Rating":1.8,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Sandstone_04.png"
-  },
-  {
-    "image_id":456,
-    "Broad_Category_Name":"S",
-    "Category":29,
-    "Category_Name":"Sandstone",
-    "Item":8,
-    "Distinct_Rating":1.5,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Sandstone_08.png"
   },
   {
     "image_id":470,
@@ -5126,28 +2574,6 @@
     "image_png":"S_Shale_11.png"
   },
   {
-    "image_id":473,
-    "Broad_Category_Name":"S",
-    "Category":30,
-    "Category_Name":"Shale",
-    "Item":9,
-    "Distinct_Rating":3.7,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Shale_09.png"
-  },
-  {
-    "image_id":466,
-    "Broad_Category_Name":"S",
-    "Category":30,
-    "Category_Name":"Shale",
-    "Item":2,
-    "Distinct_Rating":2.9,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Shale_02.png"
-  },
-  {
     "image_id":471,
     "Broad_Category_Name":"S",
     "Category":30,
@@ -5168,28 +2594,6 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"S_Shale_01.png"
-  },
-  {
-    "image_id":478,
-    "Broad_Category_Name":"S",
-    "Category":30,
-    "Category_Name":"Shale",
-    "Item":14,
-    "Distinct_Rating":2.68,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Shale_14.png"
-  },
-  {
-    "image_id":469,
-    "Broad_Category_Name":"S",
-    "Category":30,
-    "Category_Name":"Shale",
-    "Item":5,
-    "Distinct_Rating":2.55,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Shale_05.png"
   },
   {
     "image_id":472,
@@ -5214,28 +2618,6 @@
     "image_png":"S_Shale_12.png"
   },
   {
-    "image_id":480,
-    "Broad_Category_Name":"S",
-    "Category":30,
-    "Category_Name":"Shale",
-    "Item":16,
-    "Distinct_Rating":2.31,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Shale_16.png"
-  },
-  {
-    "image_id":468,
-    "Broad_Category_Name":"S",
-    "Category":30,
-    "Category_Name":"Shale",
-    "Item":4,
-    "Distinct_Rating":2.23,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Shale_04.png"
-  },
-  {
     "image_id":467,
     "Broad_Category_Name":"S",
     "Category":30,
@@ -5256,27 +2638,5 @@
     "Group1":"Target",
     "Group2":"Foil",
     "image_png":"S_Shale_10.png"
-  },
-  {
-    "image_id":477,
-    "Broad_Category_Name":"S",
-    "Category":30,
-    "Category_Name":"Shale",
-    "Item":13,
-    "Distinct_Rating":1.88,
-    "Group1":"Foil",
-    "Group2":"Target",
-    "image_png":"S_Shale_13.png"
-  },
-  {
-    "image_id":479,
-    "Broad_Category_Name":"S",
-    "Category":30,
-    "Category_Name":"Shale",
-    "Item":15,
-    "Distinct_Rating":1.84,
-    "Group1":"Target",
-    "Group2":"Foil",
-    "image_png":"S_Shale_15.png"
   }
 ]

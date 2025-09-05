@@ -56,6 +56,8 @@
 /* Randomly assign a participant to a group
 Depending on the group, certain images will be designated as targets or foils */
 const group = Math.random() < 0.5 ? "Group1" : "Group2"; 
+const full_date = new Date().toISOString();  // Full date and time (for data saving)
+const date = full_date.split("T")[0]; // Date only (for data saving)
 // Durations
 const ISI = 1000; // ms
 const image_duration = 2500;
@@ -98,7 +100,9 @@ if (subjectID === undefined) {
     subjectID = this.jsPsych.randomization.randomID(8)
 };
 // Add subject ID and group to data properties
-jsPsych.data.addProperties({subject_id: subjectID, group: group});
+jsPsych.data.addProperties({subject_id: subjectID, 
+  group: group,
+  date: full_date});
 
 // Preload images (later - after we fetch the table)
 let preload; 
@@ -271,7 +275,7 @@ let between_phases = {
 };
 
 // Save data
-const filename = `${group}_${subjectID}.json`;
+const filename = `${group}_${subjectID}_${date}.json`;
 const save_data = {
   type: jsPsychPipe,
   action: "save",
