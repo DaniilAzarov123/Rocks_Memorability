@@ -64,8 +64,8 @@ const time = full_date.split("T")[1].split(".")[0]; // Time only (for data savin
 const safe_time = time.replaceAll(":", "-");  // "16:25:32" --> "16-25-32"
 
 // Durations
-const ISI = 250;//1000; // ms
-const image_duration = 500;//2500;
+const ISI = 1000; // ms
+const image_duration = 2500;
 const feedback_duration = 500;
 const memory_phase_chunk_size = 25; // Number of images in each chunk of the memory phase
 // Screen dimensions (in CSS pixels, not physical pixels!)
