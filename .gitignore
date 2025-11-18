@@ -1,0 +1,6 @@
+# macOS system files
+.DS_Store
+
+# Ignore Preparation files
+"Nosofsky files/"
+"Exp2/Prepare Stimuli/"
