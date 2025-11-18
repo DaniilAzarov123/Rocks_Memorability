@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Memorability experiment</title>
+
+  <!-- Plugins -->
+  <!-- Main jsPsych plugin -->
+  <script src="https://unpkg.com/jspsych@8.2.2"></script>
+  <!-- Plugin to preload images -->
+  <script src="https://unpkg.com/@jspsych/plugin-preload@2.1.0"></script>
+  <!-- Plugin to show images and record keyboard responses -->
+  <script src="https://unpkg.com/@jspsych/plugin-image-keyboard-response@2.1.0"></script>
+  <!-- Plugin to show text (here - feedback) and record keyboard responses -->
+  <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.1.0"></script>
+  <!-- Plugin to run the experiment in fullscreen mode -->
+  <script src="https://unpkg.com/@jspsych/plugin-fullscreen@2.1.0"></script>
+  <!-- Plugin to show text (here - instructions) and record button responses -->
+  <script src="https://unpkg.com/@jspsych/plugin-html-button-response@2.1.0"></script>
+  <!-- DataPipe plugin (need it to save data) -->
+  <script src="https://unpkg.com/@jspsych-contrib/plugin-pipe"></script>
+  <!-- Device check plugin -->
+  <script src="https://unpkg.com/@jspsych/plugin-browser-check@2.1.0"></script>
+  <!-- External HTML plugin (for consent) -->
+   <script src="https://unpkg.com/@jspsych/plugin-external-html@2.1.0"></script>
+
+  <!-- CSS -->
+  <link href="https://unpkg.com/jspsych@8.2.2/css/jspsych.css" rel="stylesheet" type="text/css" />
+  <!-- Make buttons prettier -->
+  <style>
+    .jspsych-btn {
+      margin-top: 5px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: auto;
+      padding: 10px 18px;
+      font-size: 15px;
+      font-weight: bold;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .jspsych-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body></body>
+<script>
+
+// Set hyper variables
+
+/* Randomly assign a participant to a group
+Depending on the group, certain images will be designated as targets or foils */
+const group = Math.random() < 0.5 ? "Group1" : "Group2"; 
+const full_date = new Date().toISOString();  // Full date and time (for data saving)
+const date = full_date.split("T")[0]; // Date only (for data saving)
+// Note the time is in UTC
+const time = full_date.split("T")[1].split(".")[0]; // Time only (for data saving)
+// Replace all ":" with "-"
+const safe_time = time.replaceAll(":", "-");  // "16:25:32" --> "16-25-32"
+
+// Durations
+const ISI = 1000; // ms
+const image_duration = 2500;
+const feedback_duration = 500;
+const memory_phase_chunk_size = 25; // Number of images in each chunk of the memory phase
+const study_phase_repeats = 3; // How many times to repeat the study phase (1 = once, 2 = twice, etc.)
+
+// Screen dimensions (in CSS pixels, not physical pixels!)
+const img_size = 300; // image size (pixels)
+const fix_cross_size = 50; // fixation cross size
+const feedback_font_size = 50; // for feedback
+const question_font_size = 35; // for questions under images
+const instructions_font_size = 20; // for instructions
+const spacing_answers = 380; // spacing between "A - NO" and "L - YES"
+
+// Begin Experiment
+var jsPsych = initJsPsych({
+    show_progress_bar: true, // show progress bar
+    auto_update_progress_bar: false, // We'll update manually
+    message_progress_bar: '' // We'll set manually
+});
+
+
+// get subject ID (----------------------CHANGE IF USE PROLIFIC----------------------)
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};
+
+let subjectID = getUrlParameter('id');
+if (subjectID === undefined) {
+    subjectID = this.jsPsych.randomization.randomID(8)
+};
+// Add subject ID and group to data properties
+jsPsych.data.addProperties({
+  subject_id: subjectID, 
+  group: group,
+  full_date: full_date,
+  date: date,
+  time: time
+});
+
+// Preload images (later - after we fetch the table)
+let preload; 
+
+// Device check (make sure the participant is using a non-mobile device in fullscreen mode)
+let device_check = {
+  type: jsPsychBrowserCheck,
+  inclusion_function: (data) => !(data.mobile || !data.fullscreen),
+  exclusion_message: (data) => {
+    return (
+    `<div style="max-width: ${spacing_answers*2}px; margin: auto; 
+    font-size: ${instructions_font_size}px; line-height: 1.5;">
+      <p>
+        Please use a desktop or laptop to complete this experiment. 
+        Ensure your computer can switch to fullscreen mode.
+      </p>
+      <p>
+        If you believe this is an error, try refreshing the page.
+        If the issue persists, please contact the experimenter.
+      </p>
+    </div>`
+    );
+  }
+};
+
+// Function to check consent
+let check_consent = function(elem) {
+  if (document.getElementById('consent_checkbox').checked) {
+    return true;
+  }
+  else {
+    alert("If you wish to participate, you must check the box next to the statement 'I agree to participate in this study'.");
+    return false;
+  }
+  return false;
+};
+
+// Check consent (the trial itself)
+let consentTrial = {
+  type:jsPsychExternalHtml,
+  url: "SONA_consent_memorability.html",
+  cont_btn: "start",
+  check_fn: check_consent
+};
+
+// Run Exp in the fullscreen mode
+let enter_fullscreen = {
+  type: jsPsychFullscreen,
+  fullscreen_mode: true,
+  on_start: function() {
+    // Hide progress bar
+    var progressBar = document.querySelector('#jspsych-progressbar-container');
+    if (progressBar) {
+        progressBar.style.display = 'none';
+    }
+  }
+};
+let exit_fullscreen = {
+  type: jsPsychFullscreen,
+  fullscreen_mode: false,
+  delay_after: 0,
+  on_start: function() {
+    // Hide progress bar
+    var progressBar = document.querySelector('#jspsych-progressbar-container');
+    if (progressBar) {
+        progressBar.style.display = 'none';
+    }
+  }
+};
+
+// Instructions
+let instructions = {
+  type: jsPsychHtmlButtonResponse,
+  stimulus: (
+    `<div style="max-width: ${spacing_answers*2}px; margin: auto; font-size: ${instructions_font_size}px; line-height: 1.5;">
+      <h1 style="text-align:center; font-size: ${instructions_font_size*1.5}px;">Instructions</h1>
+      <p>
+        Welcome to the study on <b>visual memory</b>. This experiment consists of <b>two phases</b>: 
+        a <b>study phase</b> and a <b>test phase</b>.
+      </p>
+      <p>
+        In the study phase, you will see a series of rock images along with their category labels.
+        The images will appear one at a time.
+        <b>Your task</b> is to learn the categories to which the rock images belong 
+        and to remember each image as accurately as possible.
+      </p> 
+      <p>
+        Note that we will repeat the study phase <b>${study_phase_repeats} times</b>, 
+        so you will have multiple opportunities to see and remember each image.
+      </p>
+      <p>
+        After the study phase, <b>your memory will be tested</b>. 
+        Additional instructions for the test phase will be provided at that time.
+      </p>
+      <p>
+        If your computer has multiple <b>language settings</b> (e.g., English and another language),
+        please make sure it is set to English before starting.
+      </p>
+      <p>
+        You can track your progress using the <b>completion bar</b> at the top of the screen. 
+        Please note that the bar will refresh when the test phase begins 
+        to give you an accurate sense of your progress in both phases.
+      </p> 
+      <p>
+        Press the button below when you are ready to begin.
+      </p>
+    </div>`
+    ),
+  choices: ["Begin Study Phase"],
+  on_start: function() {
+        // Hide progress bar
+        var progressBar = document.querySelector('#jspsych-progressbar-container');
+        if (progressBar) {
+            progressBar.style.display = 'none';
+        }
+    },
+  on_finish: function() {
+      // Show progress bar again and set it to 0
+      var progressBar = document.querySelector('#jspsych-progressbar-container');
+      if (progressBar) {
+          progressBar.style.display = 'block';
+      }
+      updateProgressBar(0, '');
+  }
+};
+
+// Instructions between the study and test phases
+let between_phases = {
+  type: jsPsychHtmlButtonResponse,
+  stimulus: (
+    `<div style="max-width: ${spacing_answers*2}px; margin: auto; font-size: ${instructions_font_size}px; line-height: 1.5;">
+      <h1 style="text-align:center; font-size: ${instructions_font_size*1.5}px;">Instructions for the Test Phase</h1>
+      <p>
+        The study phase is now complete.
+      </p>
+      <p>
+        In the test phase, you will again see a series of rock images. 
+        Some will be ones you saw before - during the study phase, while others will be new.  
+        <b>Your task</b> is to decide whether you have seen each image before by pressing the corresponding key on your keyboard:<br><br>
+          <b>A</b> - NO (you did not see this image before)<br>
+          <b>L</b> - YES (you saw this image before)<br><br>
+        The test will proceed at your own pace. You will receive feedback after each response.  
+        Please try to respond <b>as accurately as possible</b>.
+      </p>
+      <p>
+        <b>Reminder:</b> If your computer has multiple language settings (e.g., English and another language),
+        please ensure it is set to English during the test phase.
+      </p>
+      <p>
+        You can track your progress using the <b>completion bar</b> at the top of the screen.  
+        Note that it has been refreshed to reflect your progress during this final phase.
+      </p>
+      <p>
+        Press the button below when you are ready to continue.
+      </p>
+    </div>`
+    ),
+  choices: ["Begin Test Phase"],
+  on_start: function() {
+        // Hide progress bar
+        var progressBar = document.querySelector('#jspsych-progressbar-container');
+        if (progressBar) {
+            progressBar.style.display = 'none';
+        }
+    },
+  on_finish: function() {
+      // Show progress bar again and set it to 0
+      var progressBar = document.querySelector('#jspsych-progressbar-container');
+      if (progressBar) {
+          progressBar.style.display = 'block';
+      }
+      updateProgressBar(0, '');
+  }
+};
+
+// Save data
+// Filename format example: Group1_88301_2025-11-06_16-13-26.json
+const filename = `${group}_${subjectID}_${date}_${safe_time}.json`;
+const save_data = {
+  type: jsPsychPipe,
+  action: "save",
+  experiment_id: "vF029cTLZUNS",
+  filename: filename,
+  data_string: ()=>jsPsych.data.get().json(),
+  on_start: function() {
+        // Hide progress bar
+        var progressBar = document.querySelector('#jspsych-progressbar-container');
+        if (progressBar) {
+            progressBar.style.display = 'none';
+        }
+    }
+};
+
+// Debriefing
+let debrief = {
+  type: jsPsychHtmlButtonResponse,
+  stimulus: (
+    `<div style="max-width: ${spacing_answers*2}px; margin: auto; font-size: ${instructions_font_size}px; line-height: 1.5;">
+      <h1 style="text-align:center; font-size: ${instructions_font_size*1.5}px;">Debriefing</h1>
+      <p>
+        Congratulations! You have completed the experiment. Thank you for your participation. You will receive 1 credit soon; please allow some time for processing. If you do not receive a confirmation email within <b>one week</b>, please contact the experimenter. <b>Important</b>: Please do not run the experiment again.
+      </p>
+      <p>
+        In this study, we are investigating what makes certain items more memorable than others.  
+        Our hypothesis is that some items are easier to remember because they stand out within their category.  
+        For example, a rock with a distinctive color or shape is more likely to be remembered than one that looks similar to many others in the same category. 
+        Your data will allow us to investigate how the distinctiveness of visual objects within their categories influences their memorability.
+      </p>
+      <p>
+        <b>Your data has been successfully saved</b> on our servers.  
+        You may now close this window at any time.  
+        If you have any questions or concerns, please feel free to contact the experimenter.  
+        Thank you again for your time and effort!
+      </p>
+    </div>`
+    ),
+  choices: [],
+  on_start: function() {
+    // Hide progress bar
+    var progressBar = document.querySelector('#jspsych-progressbar-container');
+    if (progressBar) {
+        progressBar.style.display = 'none';
+      }
+    }
+};
+
+
+// Helper functions
+
+// Update progress bar with text, height, color, etc.
+function updateProgressBar(progress, text) {
+  // Clamp progress between 0 and 1
+  progress = Math.max(0, Math.min(1, progress));
+
+  // Update progress value
+  jsPsych.progressBar.progress = progress;
+  // Get the progress bar container
+  var progress_bar = document.querySelector('#jspsych-progressbar-container');
+  
+  if (progress_bar) {
+    var span = progress_bar.querySelector('span');
+
+    // Set text in <span>
+    if (span) {
+      span.textContent = text;
+      span.style.fontSize = "16px";
+    }
+
+    // Outer bar styling (contours)
+    var outer_bar = progress_bar.querySelector('#jspsych-progressbar-outer');
+    if (outer_bar) {
+      outer_bar.style.border = "3px solid grey"; // border color
+      outer_bar.style.borderRadius = "12px"; // "roundness" of the bar
+      outer_bar.style.boxShadow = "0 0 6px rgba(0,0,0,0.4)"; // shadow
+      outer_bar.style.height = "25px";
+      outer_bar.style.overflow = "hidden"; // clip inner bar
+    }
+
+    // Inner bar styling (filling)
+    var inner_bar = progress_bar.querySelector('#jspsych-progressbar-inner');
+    if (inner_bar) {
+      inner_bar.style.borderRadius = "8px 8px 8px 8px"; // top-left, top-right, bottom-right, bottom-left
+      inner_bar.style.backgroundColor = "rgba(76, 175, 80, 0.7)"; // green with transparency (70% opacity)
+    }
+  }
+}
+
+// Break memory phase into chunks (so that the computer doesn't go to sleep)
+function chunkArray(array, size) {
+  let result = [];
+  for (let i = 0; i < array.length; i += size) {
+    result.push(array.slice(i, i + size));
+  }
+  return result;
+}
+
+
+// Read the table
+let all_stim_table;
+let targets_table;
+// Phases
+let Memory_phase;
+let memory_phase_chunks; // Chunks of memory phase with breaks in between them
+let Test_phase;
+
+// Initialize the timeline
+let timeline = [];
+
+/* Write code within fetch() to ensure
+that the table is read in BEFORE we use its variables */
+fetch('Exp2_dataset.json')
+  .then(res => res.json())
+  .then(data => {
+    all_stim_table = data;
+    /* Set full image path (with folder name) 
+    and correct key */
+    all_stim_table = all_stim_table.map(row => ({
+      ...row,
+      full_image_png: 'Stimuli_Rocks480/' + row.image_png,
+      correct_key: row[group] === "Target" ? "l" : "a"
+    }));
+
+    // Shuffle the entire table
+    all_stim_table = jsPsych.randomization.shuffle(all_stim_table);
+    // Filter Targets (Memory phase) and shuffle them
+    targets_table = all_stim_table.filter(row => row[group] === "Target");
+    targets_table = jsPsych.randomization.shuffle(targets_table);
+    const n_unique_tr_per_study_ph = targets_table.length; // Number of unique trials per study phase
+    // Repeat the study phase several times if needed
+    targets_table = Array(study_phase_repeats).fill().flatMap(() => targets_table);
+
+    /* Preload images
+    Use the full image path for preloading */
+    preload = {
+      type: jsPsychPreload,
+      images: all_stim_table.map(row => row.full_image_png),
+      on_start: function() {
+        // Hide progress bar
+        var progressBar = document.querySelector('#jspsych-progressbar-container');
+        if (progressBar) {
+            progressBar.style.display = 'none';
+          }
+        }
+      };
+
+    // To update progress bar later in these two phases
+    let memory_phase_length = targets_table.length;
+    let test_phase_length = all_stim_table.length;
+
+    /* Memory Phase 
+    Fixation Cross -> Image + Category Name -> Press SPACE to proceed trial (sometimes)
+    Hide the coursor */
+    memory_phase_chunks = chunkArray(targets_table, memory_phase_chunk_size);
+    Memory_phase = {
+      timeline: [],
+      on_timeline_start: function() {
+        // Hide the cursor
+        document.body.style.cursor = 'none';
+        // Set progress bar to 0 after 100 ms (to ensure it is visible, in case the bar is not initialized immediately)
+        setTimeout(() => {
+          updateProgressBar(0, 'Study Phase Progress');
+        }, 100);
+      },
+      on_timeline_finish: function() {
+        // Show the cursor again
+        document.body.style.cursor = 'default';
+      }
+    };
+
+    // Loop over chunks
+    memory_phase_chunks.forEach((chunk, idx) => {
+      // Normal trials
+      Memory_phase.timeline.push({
+        timeline: [
+          // Fixation Cross
+          {
+            type: jsPsychHtmlKeyboardResponse,
+            stimulus: `<p style="font-size: ${fix_cross_size}px; margin: 0; text-align: center;">+</p>`,
+            choices: "NO_KEYS",
+            trial_duration: ISI,
+            // Add empty prompt to ensure the cross is in the center of the image
+            prompt: `<p style="font-size: ${question_font_size}px; color: transparent;">&nbsp;</p>`
+          },
+        // Image
+          {
+            type: jsPsychImageKeyboardResponse,
+            stimulus: jsPsych.timelineVariable('full_image_png'),
+            choices: "NO_KEYS",
+            trial_duration: image_duration,
+            stimulus_height: img_size,
+            on_start: function() {
+              // Update progress bar
+              let curr_progress_bar_value = jsPsych.progressBar.progress;
+              let new_progress = curr_progress_bar_value + (1 / memory_phase_length);
+              updateProgressBar(new_progress, 'Study Phase Progress');
+            },
+            prompt: function() {
+              // Show different category names depending on the image presented
+              var categoryName = jsPsych.evaluateTimelineVariable('Category_Name');
+              return `<p style="font-size: ${question_font_size}px;">${categoryName}</p>`;
+            },
+            data: {
+              task: 'memory_phase',
+              broad_category: jsPsych.timelineVariable('Broad_Category_Name'),
+              image_png: jsPsych.timelineVariable('image_png'),
+              image_id: jsPsych.timelineVariable('image_id'),
+              category_name: jsPsych.timelineVariable('Category_Name'),
+              category: jsPsych.timelineVariable('Category'),
+              distinct_rating: jsPsych.timelineVariable('Distinct_Rating'),
+              distinct_type: jsPsych.timelineVariable('Distinct_Type'), // Top, Bottom
+            }
+          }
+        ],
+        timeline_variables: chunk,
+        randomize_order: false
+      });
+
+      /* Extra trial
+      Add an "extra trial" after every chunk to ensure the computer doesn't go to sleep.
+      Plus, make sure there's no "extra trial" after the last normal one */
+      if (idx < memory_phase_chunks.length - 1) {
+        // Calculate cumulative trial count up to this point
+        let cumulative_trials = (idx + 1) * chunk.length;
+        
+        // Check if this break is at the end of a study phase
+        let is_end_of_study_phase = (cumulative_trials % n_unique_tr_per_study_ph) === 0;
+        //div style="max-width: ${spacing_answers*2}px; margin: auto; font-size: ${question_font_size}px; line-height: 1.5;"
+        Memory_phase.timeline.push({
+          type: jsPsychHtmlKeyboardResponse,
+          stimulus: is_end_of_study_phase 
+            ? `<p style="max-width: ${spacing_answers*2}px; margin: auto; font-size: ${question_font_size}px; line-height: 1.5;">You have completed one study phase. Now, we'll repeat all the images again.<br><br>Press SPACE to continue</p>`
+            : `<p style="max-width: ${spacing_answers*2}px; margin: auto; font-size: ${question_font_size}px; line-height: 1.5;">Press SPACE to continue study phase</p>`,
+          choices: [' '],
+        });
+      }
+    });
+
+    /* Test Phase 
+    Image with a question -> Feedback */
+    Test_phase = {
+      timeline: [
+      // Image with a question
+        {
+          type: jsPsychImageKeyboardResponse,
+          stimulus: jsPsych.timelineVariable('full_image_png'),
+          choices: ['a', 'l'], 
+          stimulus_height: img_size,
+          on_start: function() {
+            // Update progress bar
+            let curr_progress_bar_value = jsPsych.progressBar.progress;
+            let new_progress = curr_progress_bar_value + (1 / test_phase_length);
+            updateProgressBar(new_progress, 'Test Phase Progress');
+          },
+          prompt: function() {
+            // Prompt with a question (control the spacing between answers)
+            return (
+              `<p style="font-size: ${question_font_size}px;">Did you see this image before?</p>
+              <div style="display: flex; justify-content: space-between; 
+              font-size: ${question_font_size}px; max-width: ${spacing_answers}px; margin: 0 auto;">
+                <span>A - NO</span>
+                <span>L - YES</span>
+              </div>`
+              );
+          },
+          data: {
+            correct_response: jsPsych.timelineVariable('correct_key'),
+            task: 'test_phase',
+            broad_category: jsPsych.timelineVariable('Broad_Category_Name'),
+            image_png: jsPsych.timelineVariable('image_png'),
+            image_id: jsPsych.timelineVariable('image_id'),
+            category_name: jsPsych.timelineVariable('Category_Name'),
+            category: jsPsych.timelineVariable('Category'),
+            distinct_rating: jsPsych.timelineVariable('Distinct_Rating'),
+            distinct_type: jsPsych.timelineVariable('Distinct_Type'), // Top, Bottom
+            item_type: jsPsych.timelineVariable(group) // Target or Foil
+          },
+          // Check if response is correct and save it
+          on_finish: function(data) {
+            data.response = data.response.toLowerCase(); // make sure the response is lowercase
+            data.cor_ans = data.response == data.correct_response;
+          }
+        },
+
+        // Feedback
+        {
+          type: jsPsychHtmlKeyboardResponse,
+          stimulus: function() {
+            // Set feedback text and color
+            var last_trial_correct = jsPsych.data.get().last(1).values()[0].cor_ans;
+            if (last_trial_correct) {
+              return `<p style="color: green; font-size: ${feedback_font_size}px; font-weight: bold;">Correct</p>`;
+            } else {
+              return `<p style="color: red; font-size: ${feedback_font_size}px; font-weight: bold;">Incorrect</p>`;
+            }
+          },
+          choices: "NO_KEYS",
+          trial_duration: feedback_duration,
+          data: {
+            trial_type: 'feedback',
+          }
+        }
+      ],
+      timeline_variables: all_stim_table,
+      randomize_order: false,
+      on_timeline_start: function() {
+        // Hide cursor
+        document.body.style.cursor = 'none';
+        // Set progress bar to 0 after 100 ms (to ensure it is visible, in case the bar is not initialized immediately)
+        setTimeout(() => {
+          updateProgressBar(0, 'Test Phase Progress');
+        }, 100);
+      },
+      on_timeline_finish: function() {
+        // Show the cursor again
+        document.body.style.cursor = 'default';
+      }
+    }
+
+    // Add all the phases to the timeline
+    timeline.push(device_check, preload, consentTrial,
+                  enter_fullscreen, instructions,
+                  Memory_phase, between_phases, Test_phase,
+                  save_data, exit_fullscreen, debrief);
+    jsPsych.run(timeline);
+  });
+
+</script>
+</html>
