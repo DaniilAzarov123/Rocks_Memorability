@@ -65,7 +65,7 @@ const safe_time = time.replaceAll(":", "-");  // "16:25:32" --> "16-25-32"
 
 // Durations
 const ISI = 1000; // ms
-const image_duration = 2500;
+const image_duration = 2500; 
 const feedback_duration = 500;
 const memory_phase_chunk_size = 25; // Number of images in each chunk of the memory phase
 const study_phase_repeats = 3; // How many times to repeat the study phase (1 = once, 2 = twice, etc.)
@@ -422,8 +422,10 @@ fetch('Exp2_dataset.json')
     targets_table = all_stim_table.filter(row => row[group] === "Target");
     targets_table = jsPsych.randomization.shuffle(targets_table);
     const n_unique_tr_per_study_ph = targets_table.length; // Number of unique trials per study phase
-    // Repeat the study phase several times if needed
-    targets_table = Array(study_phase_repeats).fill().flatMap(() => targets_table);
+    // Repeat the study phase several times, shuffling each repetition
+    targets_table = Array(study_phase_repeats).fill().flatMap(() => 
+      jsPsych.randomization.shuffle([...targets_table])
+    );
 
     /* Preload images
     Use the full image path for preloading */
