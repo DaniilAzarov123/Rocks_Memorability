@@ -522,11 +522,15 @@ fetch('Exp2_dataset.json')
         
         // Check if this break is at the end of a study phase
         let is_end_of_study_phase = (cumulative_trials % n_unique_tr_per_study_ph) === 0;
-        //div style="max-width: ${spacing_answers*2}px; margin: auto; font-size: ${question_font_size}px; line-height: 1.5;"
+
+        // Calculate which study phase we just completed
+        let completed_study_phase = Math.floor(cumulative_trials / n_unique_tr_per_study_ph);
+        let remaining_repetitions = study_phase_repeats - completed_study_phase;
+
         Memory_phase.timeline.push({
           type: jsPsychHtmlKeyboardResponse,
           stimulus: is_end_of_study_phase 
-            ? `<p style="max-width: ${spacing_answers*2}px; margin: auto; font-size: ${question_font_size}px; line-height: 1.5;">You have completed one study phase. Now, we'll repeat all the images again.<br><br>Press SPACE to continue</p>`
+            ? `<p style="max-width: ${spacing_answers*2}px; margin: auto; font-size: ${question_font_size}px; line-height: 1.5;">You have completed ${completed_study_phase} study phase${completed_study_phase > 1 ? 's' : ''}. Now, we'll show you all the images again ${remaining_repetitions} more time${remaining_repetitions > 1 ? 's' : ''}.<br><br>Press SPACE to continue</p>`
             : `<p style="max-width: ${spacing_answers*2}px; margin: auto; font-size: ${question_font_size}px; line-height: 1.5;">Press SPACE to continue study phase</p>`,
           choices: [' '],
         });
