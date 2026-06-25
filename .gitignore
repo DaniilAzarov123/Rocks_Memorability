@@ -5,9 +5,9 @@
 osf_token.txt
 
 # Ignore Preparation files
-Nosofsky\ files/
+All\ Data/
+Exp1/Prepare\ Stimuli/
 Exp2/Prepare\ Stimuli/
-Exp2/Prepare\ Stimuli/Choosing\ stim/
 
 # Python cache
 __pycache__/
