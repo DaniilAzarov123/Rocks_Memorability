@@ -1,7 +1,20 @@
 # macOS system files
 .DS_Store
 
+# Token files for OSF access
+osf_token.txt
+
 # Ignore Preparation files
 Nosofsky\ files/
 Exp2/Prepare\ Stimuli/
 Exp2/Prepare\ Stimuli/Choosing\ stim/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env
+.vscode/

@@ -1,0 +1,67 @@
+Data description
+
+There are 3 folders:
+
+1) 1cond_1rep - contains the data from the Exp where we ran only one condition: 1 repetition of the memory phase
+2) 1cond_3rep - - contains the data from the Exp where we ran only one condition: 3 repetitions of the memory phase (submitted to CogSci)
+3) 2_conds - - contains the data from the Exp where we ran both condition simultaneously: 1 and 3 repetitions of the memory phase (collected this semester)
+
+Each folder contains 3 .txt files:
+
+1) data_by_item_[condition].txt - data aggregated by each item:
+	- image_id
+	- condition: 0 - 1 repetition, 1 - 3 repetitions
+	- group: 1 and 2
+	- n_subj: number of subjects that viewed this item in this group in this condition
+	- n_yes: number of subjects that said yes (“Old”) in this group in this condition
+	- item_type: 0 - foil, 1 - target
+	- distinct_rating: distinctiveness rating
+	- distinct_type: 0 - low distinctiveness, 1 - high distinctiveness 
+	- prop_yes: observed proportion of subjects who said yes (“Old”) = n_yes / n_subj
+	- resp_type: 0 - FA, 1 - Hit
+	- HS_preds: hybrid-similarity model predictions (proportion yes)
+
+2) memory_data_[condition].txt - study phase data:
+	- trial_index: trial index from 1 to 50 (50 objects were presented) in 1-repetition condition and from 1 to 150 (50 objects were presented 3 times) in 3-repetition condition 
+	- subject_id
+	- group: 1 and 2
+	- condition: 0 - 1 repetition, 1 - 3 repetitions
+	- task: here it’s only 0 (study phase)
+	- item_type: 0 - foil, 1 - target
+	- category: categories from 1 to 30
+	- image_id
+	- distinct_rating: distinctiveness rating
+	- distinct_type: 0 - low distinctiveness, 1 - high distinctiveness 
+	- good_subj: 0 - False, 1 - True whether a subject is above or below the threshold
+
+3) test_data_[condition].txt - test phase data:
+	- trial_index: trial index from 1 to 50 (50 objects were presented) in 1-repetition condition and from 1 to 150 (50 objects were presented 3 times) in 3-repetition condition 
+	- subject_id
+	- group: 1 and 2
+	- condition: 0 - 1 repetition, 1 - 3 repetitions
+	- task: here it’s only 1 (test phase)
+	- item_type: 0 - foil, 1 - target
+	- response: 0 - no (“new item”), 1 - yes (“old item”)
+	- correct_response: which answer is correct 0 (“new”) or 1 (“old”)
+	- cor_ans: was the answer correct? 0 - wrong answer, 1 - correct answer
+	- rt - reaction time
+	- category: categories from 1 to 30
+	- image_id
+	- distinct_rating: distinctiveness rating
+	- distinct_type: 0 - low distinctiveness, 1 - high distinctiveness 
+	- good_subj: 0 - False, 1 - True whether a subject is above or below the threshold
+
+*** Note that subjects for the:
+	- 2_conds are between 1 and 309
+	- 1cond_1rep are between 1,000 and 1,042
+	- 1cond_3rep are between 2,000 and 2,219
+
+
+
+
+
+
+
+
+
+
