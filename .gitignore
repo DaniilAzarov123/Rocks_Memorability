@@ -1,23 +1,14 @@
 # macOS system files
 .DS_Store
 
-# Token files for OSF access
-osf_token.txt
-
-# Ignore Preparation files
-All\ Data/
-Exp1/Prepare\ Stimuli/
-Exp2/Prepare\ Stimuli/
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-
 # Virtual environments
-venv/
-.env
 .vscode/
+
+# All data in .txt
+All\ Data/
+
+# Choose & prepare stimuli
+Exp1_1rep/Prepare\ Stimuli/
 
 # Pilot study
 Pilot/
