@@ -32,7 +32,7 @@ Exp2_2conds/
 
 Each participant is randomly assigned to a group and a condition in `config.js`. Data files are named `Group{1,2}_{1,3}_Rep_<subjectID>_<date>_<time>.json`. Rock images load at runtime from [Rocks_Database](https://github.com/DaniilAzarov123/Rocks_Database).
 
-**Run the experiment:**  `LINK`
+**Run the experiment:**  [daniilazarov123.github.io/Rocks_Memorability/Exp2_2conds/Exp/Exp2_2conds_Rocks.html](https://daniilazarov123.github.io/Rocks_Memorability/Exp2_2conds/Exp/Exp2_2conds_Rocks.html)
 
 ## Analysis Notebook
 
